@@ -1,89 +1,10 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="description" content="NAMIC Carolinas Chapter Website" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-
-    <title>NAMIC-Carolinas - NAMIC-Carolinas Chapter Website</title>
-
-    <!-- css includes -->
-    <link type="text/css" href="{{asset('css/base.css')}}" rel="stylesheet" />
-    <link type="text/css" href="{{asset('css/style.css')}}" rel="stylesheet" />
-    <link type="text/css" href="/resources/site/snappages.v1.min.css" rel="stylesheet" />
-    <link type="text/css" href="/resources/site/utils/slider/jslider.css" rel="stylesheet" />
-
-    <!-- javascript includes -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
-    <!-- <script type="text/javascript" src="http://www.linkedin.com/js/public-profile/widget-os.js"></script> -->
-    <script type="text/javascript" src="/resources/site/snappages.v1.min.js"></script>
-    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+@extends('layouts.base')
+@section('title')
+    NAMIC-Carolinas - NAMIC-Carolinas Chapter Website
+    @endsection
+@section(('content'))
 
 
-
-    <script type="text/javascript">
-        $(function(){
-            var bgColor = $('#headerLinks').css('background-color');
-            if($('#grid').length){
-                $('.column:not(.container)').wrapInner('<div class="inner-wrapper" style="background:'+bgColor+';padding:20px;margin-bottom:10px;"></div>');
-                $('.column:not(.container)').find('.inner-wrapper').append($('<div style="clear:both;"></div>'));
-            }
-            $('#content').bind('updated',function(){
-                $('.column').find('.inner-wrapper').each(function(){
-                    var $this = $(this);
-                    $this.replaceWith($this.contents());
-                });
-                $('.column:not(.container)').wrapInner('<div class="inner-wrapper" style="background:'+bgColor+';padding:20px;margin-bottom:10px;"></div>');
-                $('.column:not(.container)').find('.inner-wrapper').append($('<div style="clear:both;"></div>'));
-            });
-        });
-    </script></head>
-
-<!-- output body -->
-
-<body>
-
-<div id="fb-root"></div>
-<script>
-    window.fbAsyncInit=function(){FB.init({appId:'137170369651242',status:true,cookie:true,xfbml:true});};
-    (function(d, s, id){
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/all.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
-
-<div id="wrapper">
-    <div id="header">
-
-        <div id="headerBg"><div id="headerElements"></div></div>
-        <div id="navigation">
-            <div id="headerLinks">
-                <ul><li style="z-index:81;" class="first" id="nav_home"  >
-                        <a class="selected" href="/home.htm" target="_self"><span></span>Home</a></li>
-                    <li style="z-index:79;" id="nav_about-the-chapter"  >
-                        <a href="/about-the-chapter.htm" target="_self"><span></span>About the Chapter</a>
-                    </li>
-                    <li style="z-index:78;" id="nav_events"  ><a href="/events.htm" target="_self"><span></span>Events</a>
-                    </li>
-                    <li style="z-index:77;" id="nav_unplugged"  ><a href="/unplugged.htm" target="_self"><span></span>Unplugged</a>
-                    </li>
-                    <li style="z-index:76;" id="nav_membership"  ><a href="/membership.htm" target="_self"><span></span>Membership</a>
-                    </li>
-                    <li style="z-index:75;" id="nav_scholarships"  ><a href="/scholarships.htm" target="_self"><span></span>Scholarships</a>
-                    </li>
-                    <li style="z-index:74;" class="last" id="nav_event-photos"  ><a href="/event-photos.htm" target="_self"><span></span>Event Photos</a>
-                    </li>
-                </ul>
-            </div>
-            <div id="secondaryNav" onMouseOver="delaySecondaryNav()" onMouseOut="hideSecondaryNav()"></div>
-        </div>
-
-    </div>
     <div id="container">
         <div id="content" data-layout="twobucketside" data-index="13">
             <div id="grid" class="container_24">
@@ -190,29 +111,6 @@
         </div>
     </div>
 
-    <div id="footer">
-        <div id="footerLinks">
+@endsection
 
-            <ul>
-                <li class="first"><a href="/home.htm" target="_self">Home</a>
-                </li>
-                <li><a href="/about-the-chapter.htm" target="_self">About the Chapter</a>
-                </li>
-                <li><a href="/events.htm" target="_self">Events</a>
-                </li>
-                <li><a href="/unplugged.htm" target="_self">Unplugged</a>
-                </li>
-                <li><a href="/membership.htm" target="_self">Membership</a>
-                </li>
-                <li><a href="/scholarships.htm" target="_self">Scholarships</a>
-                </li>
-                <li class="last"><a href="/event-photos.htm" target="_self">Event Photos</a>
-                </li>
-            </ul>
-        </div>
-        Copyright © 2013 - NAMIC-Carolinas<br />
-    </div>
-</div>
-</body>
-</html>
 

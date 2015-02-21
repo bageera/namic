@@ -11,9 +11,14 @@
 |
 */
 
-Route::get('/', 'MainController@index');
+Route::get('/', ['as' => 'home','uses' => 'MainController@index']);
+Route::get('chapter', ['as' => 'chapter','uses' => 'MainController@chapter']);
+Route::get('events', ['as' => 'events','uses' => 'MainController@events']);
+Route::get('unplugged', ['as' => 'unplugged','uses' => 'MainController@unplugged']);
+Route::get('membership', ['as' => 'membership','uses' => 'MainController@membership']);
+Route::get('scholarships', ['as' => 'scholarships','uses' => 'MainController@scholarships']);
+Route::get('event-photos', ['as' => 'photos','uses' => 'MainController@photos']);
 
-Route::get('home', 'HomeController@index');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
