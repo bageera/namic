@@ -24,6 +24,11 @@ class MainController extends Controller
         return view('main.unplugged');
     }
 
+    public function issue1()
+    {
+        return view('unplugged.issue1');
+    }
+
     public function membership()
     {
         return view('main.membership');
