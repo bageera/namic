@@ -5,17 +5,35 @@
 @section(('content'))
 
     <div id="container">
-        <div id="content" data-layout="onecolumn" data-index="28"><div id="grid" class="container_24"><div id="pageTitle" class="page-title">Scholarship Guidelines</div><br class="page-title" /><div id="billboard" class="billboard-holder" style="display:none;"><div class="billboard empty" data-id="0" data-height="300"></div></div><div class="column grid_24 alpha"><div class="block heading" data-type="heading" data-title="heading" data-id="0"><h1><div class='h1' style='text-align:left;'>OVERVIEW</div></h1></div><div class="block text" data-type="text" data-title="text" data-id="1"><div style="">The NAMIC-Carolinas Scholarship Program was created in 2010 to prepare multi-ethnic college students for careers in the media and entertainment business.<br><br>The students must be in the undergraduate program and currently enrolled as a rising junior / senior in a four year college or students entering their second year of a two year college in North Carolina or South Carolina.<br><br>This program prepares a diverse group of talented young professionals to enter the workforce with specific job related skills, knowledge of the corporate environment and a strong foundation for future advancement in the media and entertainment business.</div></div><div class="block heading" data-type="heading" data-title="heading" data-id="2"><h1><div class='h1' style='text-align:left;'>IMPORTANT DOCUMENTS</div></h1></div><div class="block download" data-type="download" data-title="download" data-id="4"><div align="left"><div class="download-button rollover" align="left" style="padding:7px;display:inline-block;" data-fileID="92509" data-url="http://cloud2.snappages.com/c88cbf3eb295bc8441d9b0852802e528b01137ab/2014_NAMIC_CAROLINAS_SCHOLARSHIP_OVERVIEW.pdf" data-type="pdf" >
-                                <img src="/resources/snap/assets/icons/pdf_file_30.png" style="float:left;"/>
-                                <img src="/resources/snap/assets/icons/cloud_download_25.png" style="margin-top:8px;margin-left:-15px;float:left"/>
+        <div id="content" data-layout="onecolumn" data-index="28"><div id="grid" class="container_24">
+                <div id="pageTitle" class="page-title">
+                    Scholarship Guidelines
+                </div>
+                <br class="page-title" />
+                <div id="billboard" class="billboard-holder" style="display:none;">
+                    <div class="billboard empty" data-id="0" data-height="300">
+
+                    </div>
+                </div>
+                <div class="column grid_24 alpha">
+                    <div class="block heading" data-type="heading" data-title="heading" data-id="0">
+                        <h1>
+                            <div class='h1' style='text-align:left;'>
+                                OVERVIEW
+                            </div>
+                        </h1>
+                    </div>
+                    <div class="block text" data-type="text" data-title="text" data-id="1"><div style="">The NAMIC-Carolinas Scholarship Program was created in 2010 to prepare multi-ethnic college students for careers in the media and entertainment business.<br><br>The students must be in the undergraduate program and currently enrolled as a rising junior / senior in a four year college or students entering their second year of a two year college in North Carolina or South Carolina.<br><br>This program prepares a diverse group of talented young professionals to enter the workforce with specific job related skills, knowledge of the corporate environment and a strong foundation for future advancement in the media and entertainment business.</div></div><div class="block heading" data-type="heading" data-title="heading" data-id="2"><h1><div class='h1' style='text-align:left;'>IMPORTANT DOCUMENTS</div></h1></div><div class="block download" data-type="download" data-title="download" data-id="4"><div align="left"><div class="download-button rollover" align="left" style="padding:7px;display:inline-block;" data-fileID="92509" data-url="http://cloud2.snappages.com/c88cbf3eb295bc8441d9b0852802e528b01137ab/2014_NAMIC_CAROLINAS_SCHOLARSHIP_OVERVIEW.pdf" data-type="pdf" >
+                                <img src="{{asset('img/events/pdf_file_30.png')}}" style="float:left;"/>
+                                <img src="{{asset('img/events/cloud_download_25.png')}}" style="margin-top:8px;margin-left:-15px;float:left"/>
                                 <div style="float:left;margin-left:5px;margin-top:-2px;">
                                     <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">2014 NAMIC CAROLINAS SCHOLARSHIP OVERVIEW</div>
                                     click to download
                                 </div>
                                 <div style="clear:both;"></div>
                             </div></div></div><div class="block download" data-type="download" data-title="download" data-id="3"><div align="left"><div class="download-button rollover" align="left" style="padding:7px;display:inline-block;" data-fileID="92510" data-url="http://cloud2.snappages.com/c88cbf3eb295bc8441d9b0852802e528b01137ab/2014_NAMIC_SCHOLARSHIP_APPLICATION.pdf" data-type="pdf" >
-                                <img src="/resources/snap/assets/icons/pdf_file_30.png" style="float:left;"/>
-                                <img src="/resources/snap/assets/icons/cloud_download_25.png" style="margin-top:8px;margin-left:-15px;float:left"/>
+                                <img src="{{asset('img/events/pdf_file_30.png')}}" style="float:left;"/>
+                                <img src="{{asset('img/events/cloud_download_25.png')}}" style="margin-top:8px;margin-left:-15px;float:left"/>
                                 <div style="float:left;margin-left:5px;margin-top:-2px;">
                                     <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">2014 NAMIC SCHOLARSHIP APPLICATION</div>
                                     click to download
