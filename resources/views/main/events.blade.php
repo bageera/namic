@@ -68,7 +68,30 @@
                                 and community leaders and members by providing these Workshops.
                             </div>
                         </div>
-                        <div class="block heading" data-type="heading" data-title="heading" data-id="6"><h3><div class='h3' style='text-align:left;'>Follow Us</div></h3></div><div class="block socialicons" data-type="socialicons" data-title="socialicons" data-id="7"><div style='float:left;padding-bottom:5px;padding-right:5px;'><a href='http://www.facebook.com/NAMICCarolinasChapter' target='_blank' class='imageLink'><img src='/resources/site/images/social/facebook-32x32.png' alt='follow on'/></a></div><div style='float:left;padding-bottom:5px;padding-right:5px;'><a href='http://twitter.com/#!/NAMICCarolinas' target='_blank' class='imageLink'><img src='/resources/site/images/social/twitter-32x32.png' alt='follow on'/></a></div><div style='float:left;padding-bottom:5px;padding-right:5px;'><a href='http://www.linkedin.com/groups/NAMICCarolinas-4141647?home=&gid=4141647&trk=anet_ug_hm' target='_blank' class='imageLink'><img src='/resources/site/images/social/linkedin-32x32.png' alt='follow on'/></a></div></div></div><div class="column grid_12 omega"><div class="block heading" data-type="heading" data-title="heading" data-id="8"><h3><div class='h3' style='text-align:left;'>2014 Event Calendar</div></h3></div><div class="block download" data-type="download" data-title="download" data-id="17"><div align="left"><div class="download-button rollover" align="left" style="padding:7px;display:inline-block;" data-fileID="101980" data-url="http://cloud2.snappages.com/c88cbf3eb295bc8441d9b0852802e528b01137ab/New 2014 NAMIC Program Calendar communication2.pdf" data-type="pdf" >
+                        <div class="block heading" data-type="heading" data-title="heading" data-id="6">
+                            <h3>
+                                <div class='h3' style='text-align:left;'>
+                                    Follow Us
+                                </div>
+                            </h3>
+                        </div>
+                        <div class="block socialicons" data-type="socialicons" data-title="socialicons" data-id="7">
+                            <div style='float:left;padding-bottom:5px;padding-right:5px;'>
+                                <a href='http://www.facebook.com/NAMICCarolinasChapter' target='_blank' class='imageLink'>
+                                    <img src="{{asset('img/main/facebook-32x32.png')}}" alt='follow on'/>
+                                </a>
+                            </div>
+                            <div style='float:left;padding-bottom:5px;padding-right:5px;'>
+                                <a href='http://twitter.com/#!/NAMICCarolinas' target='_blank' class='imageLink'>
+                                    <img src="{{asset('img/main/twitter-32x32.png')}}" alt='follow on'/>
+                                </a>
+                            </div>
+                            <div style='float:left;padding-bottom:5px;padding-right:5px;'>
+                                <a href='http://www.linkedin.com/groups/NAMICCarolinas-4141647?home=&gid=4141647&trk=anet_ug_hm' target='_blank' class='imageLink'>
+                                    <img src="{{asset('img/main/linkedin-32x32.png')}}" alt='follow on'/>
+                                </a>
+                            </div>
+                        </div></div><div class="column grid_12 omega"><div class="block heading" data-type="heading" data-title="heading" data-id="8"><h3><div class='h3' style='text-align:left;'>2014 Event Calendar</div></h3></div><div class="block download" data-type="download" data-title="download" data-id="17"><div align="left"><div class="download-button rollover" align="left" style="padding:7px;display:inline-block;" data-fileID="101980" data-url="http://cloud2.snappages.com/c88cbf3eb295bc8441d9b0852802e528b01137ab/New 2014 NAMIC Program Calendar communication2.pdf" data-type="pdf" >
                                     <img src="{{asset('img/events/pdf_file_30.png')}}" style="float:left;"/>
                                     <img src="{{asset('img/events/cloud_download_25.png')}}" style="margin-top:8px;margin-left:-15px;float:left"/>
                                     <div style="float:left;margin-left:5px;margin-top:-2px;">
