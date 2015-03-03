@@ -108,7 +108,7 @@
                                     <img src="{{asset('img/events/cloud_download_25.png')}}" style="margin-top:8px;margin-left:-15px;float:left"/>
                                     <div style="float:left;margin-left:5px;margin-top:-2px;">
                                         <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">2014 NAMIC Program Calendar - Updated</div>
-                                        click to download
+                                        <a href="{{asset('files/events/New 2014 NAMIC Program Calendar communication2.pdf')}}">click to download</a>
                                     </div>
                                     <div style="clear:both;"></div>
                                 </div></div></div><div class="block text" data-type="text" data-title="text" data-id="21"><div style=""><p><b>SAVE THE DATE ANNOUNCEMENT</b></p>
@@ -132,7 +132,7 @@
                                     <img src="{{asset('img/events/cloud_download_25.png')}}" style="margin-top:8px;margin-left:-15px;float:left"/>
                                     <div style="float:left;margin-left:5px;margin-top:-2px;">
                                         <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">Save the Date Announcement</div>
-                                        click to download
+                                        <a href="{{asset('files/events/NAMIC_flyer_2_8 5x11.pdf')}}">click to download</a>
                                     </div>
                                     <div style="clear:both;"></div>
                                 </div></div></div></div></div><div style="clear:both;"></div></div></div>	</div>
