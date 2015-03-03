@@ -91,7 +91,19 @@
                                     <img src="{{asset('img/main/linkedin-32x32.png')}}" alt='follow on'/>
                                 </a>
                             </div>
-                        </div></div><div class="column grid_12 omega"><div class="block heading" data-type="heading" data-title="heading" data-id="8"><h3><div class='h3' style='text-align:left;'>2014 Event Calendar</div></h3></div><div class="block download" data-type="download" data-title="download" data-id="17"><div align="left"><div class="download-button rollover" align="left" style="padding:7px;display:inline-block;" data-fileID="101980" data-url="http://cloud2.snappages.com/c88cbf3eb295bc8441d9b0852802e528b01137ab/New 2014 NAMIC Program Calendar communication2.pdf" data-type="pdf" >
+                        </div>
+                    </div>
+                    <div class="column grid_12 omega">
+                        <div class="block heading" data-type="heading" data-title="heading" data-id="8">
+                            <h3>
+                                <div class='h3' style='text-align:left;'>
+                                    2014 Event Calendar
+                                </div>
+                            </h3>
+                        </div>
+                        <div class="block download" data-type="download" data-title="download" data-id="17">
+                            <div align="left">
+                                <div class="download-button rollover" align="left" style="padding:7px;display:inline-block;" data-fileID="101980" data-url="{{asset('files/events/New 2014 NAMIC Program Calendar communication2.pdf')}}" data-type="pdf" >
                                     <img src="{{asset('img/events/pdf_file_30.png')}}" style="float:left;"/>
                                     <img src="{{asset('img/events/cloud_download_25.png')}}" style="margin-top:8px;margin-left:-15px;float:left"/>
                                     <div style="float:left;margin-left:5px;margin-top:-2px;">
@@ -115,7 +127,7 @@
                                     <span>Registration: 1:30 and the event will start at 2pm.</span></p>
 
                                 <p>Keynote Speaker: Angela Talton, SVP, Global Diversity &amp; Inclusion at Nielsen. Jim Ludington will be the Moderator for our panel discussion. Networking mixer immediately following the event.</p>
-                            </div></div><div class="block download" data-type="download" data-title="download" data-id="22"><div align="left"><div class="download-button rollover" align="left" style="padding:7px;display:inline-block;" data-fileID="104993" data-url="http://cloud2.snappages.com/c88cbf3eb295bc8441d9b0852802e528b01137ab/NAMIC_flyer_2_8 5x11.pdf" data-type="pdf" >
+                            </div></div><div class="block download" data-type="download" data-title="download" data-id="22"><div align="left"><div class="download-button rollover" align="left" style="padding:7px;display:inline-block;" data-fileID="104993" data-url="{{asset('files/events/NAMIC_flyer_2_8 5x11.pdf')}}" data-type="pdf" >
                                     <img src="{{asset('img/events/pdf_file_30.png')}}" style="float:left;"/>
                                     <img src="{{asset('img/events/cloud_download_25.png')}}" style="margin-top:8px;margin-left:-15px;float:left"/>
                                     <div style="float:left;margin-left:5px;margin-top:-2px;">

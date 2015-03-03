@@ -27,11 +27,12 @@
                     </div>
                     <div class="block text" data-type="text" data-title="text" data-id="5">
                         <div style="text-align:center;">
-                            <a href="http://cloud2.snappages.com/c88cbf3eb295bc8441d9b0852802e528b01137ab/NAMIC Unplugged 2.0.pdf" target="_blank">
+                            <a href="{{asset('files/unplugged/NAMIC_Unplugged_2.0.pdf')}}" target="_blank">
                                 NAMIC-Carolinas UNPLUGGED Issues 2.0
                             </a>
                         </div>
                     </div>
+
                 </div>
                 <div style="clear:both;">
 
