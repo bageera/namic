@@ -97,7 +97,7 @@
                         <div class="block heading" data-type="heading" data-title="heading" data-id="8">
                             <h3>
                                 <div class='h3' style='text-align:left;'>
-                                    2014 Event Calendar
+                                    2015 Event Calendar
                                 </div>
                             </h3>
                         </div>
@@ -107,8 +107,8 @@
                                     <img src="{{asset('img/events/pdf_file_30.png')}}" style="float:left;"/>
                                     <img src="{{asset('img/events/cloud_download_25.png')}}" style="margin-top:8px;margin-left:-15px;float:left"/>
                                     <div style="float:left;margin-left:5px;margin-top:-2px;">
-                                        <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">2014 NAMIC Program Calendar - Updated</div>
-                                        <a href="{{asset('files/events/New 2014 NAMIC Program Calendar communication2.pdf')}}">click to download</a>
+                                        <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">2015 NAMIC Program Calendar - Updated</div>
+                                        <a href="{{asset('files/events/2015 NAMIC Program Calendar communication.pdf')}}">click to download</a>
                                     </div>
                                     <div style="clear:both;"></div>
                                 </div></div></div><div class="block text" data-type="text" data-title="text" data-id="21"><div style=""><p><b>SAVE THE DATE ANNOUNCEMENT</b></p>
