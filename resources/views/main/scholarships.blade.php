@@ -39,19 +39,7 @@
                             </div>
                         </h1>
                     </div>
-                    <div class="block download" data-type="download" data-title="download" data-id="4">
-                        <div align="left">
-                            <div class="download-button rollover" align="left" style="padding:7px;display:inline-block;" data-fileID="92509" data-url="{{asset('files/scholarships/2014_NAMIC_CAROLINAS_SCHOLARSHIP_OVERVIEW.pdf')}}" data-type="pdf" >
-                                <img src="{{asset('img/events/pdf_file_30.png')}}" style="float:left;"/>
-                                <img src="{{asset('img/events/cloud_download_25.png')}}" style="margin-top:8px;margin-left:-15px;float:left"/>
-                                <div style="float:left;margin-left:5px;margin-top:-2px;">
-                                    <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">2014 NAMIC CAROLINAS SCHOLARSHIP OVERVIEW</div>
-                                    <a href="{{asset('files/scholarships/2014_NAMIC_CAROLINAS_SCHOLARSHIP_OVERVIEW.pdf')}}">click to download</a>
-                                </div>
-                                <div style="clear:both;"></div>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="block download" data-type="download" data-title="download" data-id="3">
                         <div align="left">
                             <div class="download-button rollover" align="left" style="padding:7px;display:inline-block;" data-fileID="92510" data-url="{{asset('files/scholarships/2014_NAMIC_SCHOLARSHIP_APPLICATION.pdf')}}" data-type="pdf" >
