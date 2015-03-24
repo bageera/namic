@@ -1,15 +1,20 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="description" content="NAMIC Carolinas Chapter Website" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 
     <title>@yield('title')</title>
+    <!-- Latest compiled and minified CSS -->
 
     <!-- css includes -->
     <link type="text/css" href="{{asset('css/base.css')}}" rel="stylesheet" />
     <link type="text/css" href="{{asset('css/style.css')}}" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link type="text/css" href="{{asset('css/freshstart.css')}}" rel="stylesheet" />
+
     <!--
     <link type="text/css" href="/resources/site/snappages.v1.min.css" rel="stylesheet" />
     <link type="text/css" href="/resources/site/utils/slider/jslider.css" rel="stylesheet" />

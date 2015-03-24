@@ -12,7 +12,7 @@
                         </div>
                     </div>
                 <div class="column container grid_24 alpha">
-                    <div class="column grid_12 alpha">
+                    <div class="column grid_18 alpha">
                         <div class="block heading" data-type="heading" data-title="heading" data-id="0">
                             <h3>
                                 <div class='h3' style='text-align:left;'>Lunch &amp; Learns
@@ -93,7 +93,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="column grid_12 omega">
+                    <div class="column grid_6 omega">
                         <div class="block heading" data-type="heading" data-title="heading" data-id="8">
                             <h3>
                                 <div class='h3' style='text-align:left;'>

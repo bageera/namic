@@ -4,6 +4,12 @@
 @endsection
 @section(('content'))
     <div id="container">
-        <h3>2015 Images will be posted soon</h3>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">2014-15 Images </div>
+            <div class="panel-body">
+                Images will be posted soon
+            </div>
+        </div>
     </div>
 @endsection

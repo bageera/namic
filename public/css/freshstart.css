@@ -1,0 +1,9 @@
+/*
+change the primary bootstrap panel heading to fit site design
+*/
+
+.panel-primary>.panel-heading
+{
+    background-color: darkgreen;
+    border-color: darkgreen;
+}
