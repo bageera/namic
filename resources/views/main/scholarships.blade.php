@@ -32,6 +32,36 @@
                             advancement in the media and entertainment business.
                         </div>
                     </div>
+                    <div class="block heading" data-type="heading" data-title="heading" data-id="0">
+                        <h1>
+                            <div class='h1' style='text-align:left;'>
+                                Testimonial
+                            </div>
+                        </h1>
+                    </div>
+                    <div class="block text" data-type="text" data-title="text" data-id="1">
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="{{asset('img/scholarships/cox.jpg')}}" />
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Resita Cox </h4>
+                                <h4 class="media-heading">The University of North Carolina '16 </h4>
+                                <h4 class="media-heading">Journalism and Political Science Major</h4>
+                                <i>Television Broadcast</i>
+
+                                <p>I am so fortunate to have been awarded the NAMIC Scholarship. The funding allowed me to go above and beyond
+                                my experience in the classroom and participate in other learning opportunities, such as my internship at a local news station,
+                                ABC 11. I did not have to worry about how I would fund these opportunities and it inspirid me to pursue more</p>
+                                <p>Kappa Omicron Chapter of Delta Sigma Theta Sorority, Inc.</p>
+                            </div>
+
+
+
+                        </div>
+                        <p>B.A. Journalism, Political Science</p>
+                        <div class="caption">NAMIC-CAROLINAS Scholarship Recipient of 2014-2015</div>
+                    </div>
                     <div class="block heading" data-type="heading" data-title="heading" data-id="2">
                         <h1>
                             <div class='h1' style='text-align:left;'>
