@@ -42,7 +42,8 @@ class MainController extends Controller
 
     public function photos()
     {
-        $files = glob("img/events/test/*.{jpg,JPG}", GLOB_BRACE);
+        $files = glob("img/events/lnl2014/*.{jpg,JPG}", GLOB_BRACE);
+
         return view('main.photos', compact('files'));
     }
 

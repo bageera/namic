@@ -6,7 +6,7 @@
     <div id="container">
 
         <div class="panel panel-primary">
-            <div class="panel-heading">2014-15 Images </div>
+            <div class="panel-heading">Lunch and Learn 2014 </div>
             <div class="panel-body">
 
                @foreach($files as $file)
