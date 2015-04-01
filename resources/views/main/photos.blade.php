@@ -8,7 +8,15 @@
         <div class="panel panel-primary">
             <div class="panel-heading">2014-15 Images </div>
             <div class="panel-body">
-                Images will be posted soon
+
+               @foreach($files as $file)
+                    <div class="col-lg-2 col-sm-3 col-xs-4">
+                        <a href="{{$file}}">
+                            <img src="http://placehold.it/200x200" class="thumbnail img-responsive">
+                        </a>
+                    </div>
+                   @endforeach
+
             </div>
         </div>
     </div>

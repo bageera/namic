@@ -48,18 +48,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="column grid_8 omega">
-                            <div class="block image" data-type="image" data-title="image" data-id="5">
-                                <div align='center'>
-                                    <img src="{{asset('img/main/716743_1787781_1401288004.jpg')}}" align='center'  class='image ' />
-                                </div>
-                            </div>
-                            <div class="block text" data-type="text" data-title="text" data-id="6">
-                                <div style="">Join WICT Carolinas and NAMIC-Carolinas for our quarterly Book Nook Meeting.
-                                    <b> </b>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                     <div class="column grid_8 omega">
                         <div class="block heading" data-type="heading" data-title="heading" data-id="7">

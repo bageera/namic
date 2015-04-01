@@ -45,7 +45,7 @@
                                 <img src="{{asset('img/scholarships/cox.jpg')}}" />
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading">Resita Cox </h4>
+                                <h4 class="media-heading"><b>Resita Cox </b></h4>
                                 <h4 class="media-heading">The University of North Carolina '16 </h4>
                                 <h4 class="media-heading">Journalism and Political Science Major</h4>
                                 <i>Television Broadcast</i>
@@ -60,6 +60,32 @@
 
                         </div>
                         <p>B.A. Journalism, Political Science</p>
+                        <div class="caption">NAMIC-CAROLINAS Scholarship Recipient of 2014-2015</div>
+                    </div>
+                    <div class="block text" data-type="text" data-title="text" data-id="1">
+                        <div class="media">
+
+                            <div class="media-body">
+                                <h4 class="media-heading"><b>Brandon Grate </b></h4>
+                                <h4 class="media-heading">Winthrop University '15 </h4>
+                                <h4 class="media-heading">Mass Communication Major</h4>
+
+
+                                <p>I am so honored and blessed tohave been selected as a NAMIC-Carolinas recipient. It is a great feeling to know that I am
+                                financially stable as I pursue my Bachelor's of Arts degree in Mass Communication. Because of this scholarship, my college career has been filled
+                                with so many incredible opportunities that I never dreamt were possible. Anyone who can apply for this scholarship should do it because
+                                so many doors will open up for you</p>
+                                <p>Vice President, Winthrop Association of Black Journalists Student Anchor/Reporter, Winthrop Closeup Intern, Time Warner Cable News-Charlotte</p>
+                                <p>Thank you to NAMIC-Carolinas for helping me better myself and for helping me pursue my education</p>
+                            </div>
+                            <div class="media-right">
+                                <img src="{{asset('img/scholarships/grate.jpg')}}" />
+                                <p>B.A. Mass Communication</p>
+                            </div>
+
+
+                        </div>
+
                         <div class="caption">NAMIC-CAROLINAS Scholarship Recipient of 2014-2015</div>
                     </div>
                     <div class="block heading" data-type="heading" data-title="heading" data-id="2">

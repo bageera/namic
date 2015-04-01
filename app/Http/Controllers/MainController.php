@@ -16,6 +16,7 @@ class MainController extends Controller
 
     public function events()
     {
+
         return view('main.events');
     }
 
@@ -41,7 +42,8 @@ class MainController extends Controller
 
     public function photos()
     {
-        return view('main.photos');
+        $files = glob("img/events/test/*.{jpg,JPG}", GLOB_BRACE);
+        return view('main.photos', compact('files'));
     }
 
 }
