@@ -108,7 +108,7 @@
                                     <img src="{{asset('img/events/cloud_download_25.png')}}" style="margin-top:8px;margin-left:-15px;float:left"/>
                                     <div style="float:left;margin-left:5px;margin-top:-2px;">
                                         <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">2015 NAMIC Program Calendar - Updated</div>
-                                        <a href="{{asset('files/events/2015 NAMIC Program Calendar communication.pdf')}}">click to download</a>
+                                        <a href="{{asset('files/events/2015 NAMIC Program Calender.pdf')}}">click to download</a>
                                     </div>
                                     <div style="clear:both;"></div>
                                 </div>
