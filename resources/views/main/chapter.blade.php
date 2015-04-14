@@ -101,18 +101,7 @@
                                 Time Warner Cable
                             </div>
                         </div>
-                        <div class="block image" data-type="image" data-title="image" data-id="36">
-                            <div align='left'>
-                                <img src="{{asset('img/chapter/668219_2347062_1404240590.png')}}" style='float:left;'  class='image ' />
-                            </div>
-                        </div>
-                        <div class="block text" data-type="text" data-title="text" data-id="41">
-                            <div style="">Advisor<br>
-                                Garth David<br>
-                                Immediate Past President<br>
-                                NAMIC-Carolinas
-                            </div>
-                        </div>
+
                     </div>
                     <div class="column grid_6">
                         <div class="block image" data-type="image" data-title="image" data-id="33">
@@ -127,18 +116,7 @@
                                 Time Warner Cable
                             </div>
                         </div>
-                        <div class="block image" data-type="image" data-title="image" data-id="37">
-                            <div align='left'>
-                                <img src="{{asset('img/chapter/668219_2347063_1404240590.png')}}" style='float:left;'  class='image ' />
-                            </div>
-                        </div>
-                        <div class="block text" data-type="text" data-title="text" data-id="42">
-                            <div style="">Advisor<br>
-                                Khanspasha Feaster<br>
-                                Sr. Director, Leader Dev<br>
-                                Time Warner Cable
-                            </div>
-                        </div>
+
                     </div>
                     <div class="column grid_6">
                         <div class="block image" data-type="image" data-title="image" data-id="34">
@@ -155,15 +133,15 @@
                         </div>
                     </div>
                     <div class="column grid_6 omega">
-                        <div class="block image" data-type="image" data-title="image" data-id="35">
+                        <div class="block image" data-type="image" data-title="image" data-id="37">
                             <div align='left'>
-                                <img src="{{asset('img/chapter/668219_2347060_1404240590.png')}}" style='float:left;'  class='image ' />
+                                <img src="{{asset('img/chapter/668219_2347063_1404240590.png')}}" style='float:left;'  class='image ' />
                             </div>
                         </div>
-                        <div class="block text" data-type="text" data-title="text" data-id="43">
+                        <div class="block text" data-type="text" data-title="text" data-id="42">
                             <div style="">Advisor<br>
-                                Chris Cardenas<br>
-                                VP, Call Center Support Ops<br>
+                                Khanspasha Feaster<br>
+                                Sr. Director, Leader Dev<br>
                                 Time Warner Cable
                             </div>
                         </div>
