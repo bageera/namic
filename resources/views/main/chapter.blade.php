@@ -20,7 +20,7 @@
                 <div class="column grid_24 alpha">
                     <div class="block heading" data-type="heading" data-title="heading" data-id="31">
                         <h1><div class='h1' style='text-align:left;'>
-                                2014 BOARD MEMBERS
+                                {{date('Y')}} BOARD MEMBERS
                             </div>
                         </h1>
                     </div>
@@ -82,7 +82,7 @@
                     <div class="block heading" data-type="heading" data-title="heading" data-id="30">
                         <h1>
                             <div class='h1' style='text-align:left;'>
-                                2014 Advisory Committee
+                                {{date('Y')}} Advisory Committee
                             </div>
                         </h1>
                     </div>
