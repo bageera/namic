@@ -40,7 +40,7 @@
                     </div>
                     <div class="column grid_6"><div class="block image" data-type="image" data-title="image" data-id="22">
                             <div align='left'>
-                                <img src="{{asset('img/chapter/668219_2347048_1404240589.png')}}" style='float:left;'  class='image ' />
+                                <img src="{{asset('img/chapter/tunza_head.png')}}" style='float:left;'  class='image ' />
                             </div>
                         </div>
                         <div class="block text" data-type="text" data-title="text" data-id="27">
