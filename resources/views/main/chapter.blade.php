@@ -89,16 +89,28 @@
                 </div>
                 <div class="column container grid_24 alpha">
                     <div class="column grid_6 alpha">
+                        <div class="block image" data-type="image" data-title="image" data-id="37">
+                            <div align='left'>
+                                <img src="{{asset('img/chapter/668219_2347063_1404240590.png')}}" style='float:left;'  class='image ' />
+                            </div>
+                        </div>
+                        <div class="block text" data-type="text" data-title="text" data-id="42">
+                            <div style="">Advisor<br>
+                                Khanspasha Feaster<br>
+                                Sr. Director, Leader Dev<br>
+                                Time Warner Cable
+                            </div>
+                        </div>
                         <div class="block image" data-type="image" data-title="image" data-id="32">
                             <div align='left'>
-                                <img src="{{asset('img/chapter/668219_2347057_1404240589.png')}}" style='float:left;'  class='image ' />
+                                <img src="{{asset('img/chapter/mholmes.png')}}" style='float:left;'  class='image ' />
                             </div>
                         </div>
                         <div class="block text" data-type="text" data-title="text" data-id="45">
                             <div style="">Advisor<br>
-                                Darrel Hegar<br>
-                                RVP Operations<br>
-                                Time Warner Cable
+                                Mark Holmes<br>
+                                VP Decision Support, Finance<br>
+
                             </div>
                         </div>
 
@@ -116,6 +128,18 @@
                                 Time Warner Cable
                             </div>
                         </div>
+                        <div class="block image" data-type="image" data-title="image" data-id="33">
+                            <div align='left'>
+                                <img src="{{asset('img/chapter/swashington.png')}}" style='float:left;'  class='image ' />
+                            </div>
+                        </div>
+                        <div class="block text" data-type="text" data-title="text" data-id="39">
+                            <div style="">Advisor<br>
+                                Shawn Washington<br>
+                                Director, Strategic Procurement<br>
+
+                            </div>
+                        </div>
 
                     </div>
                     <div class="column grid_6">
@@ -131,18 +155,32 @@
                                 Time Warner Cable
                             </div>
                         </div>
-                    </div>
-                    <div class="column grid_6 omega">
-                        <div class="block image" data-type="image" data-title="image" data-id="37">
+                        <div class="block image" data-type="image" data-title="image" data-id="34">
                             <div align='left'>
-                                <img src="{{asset('img/chapter/668219_2347063_1404240590.png')}}" style='float:left;'  class='image ' />
+                                <img src="{{asset('img/chapter/showe.png')}}" style='float:left;'  class='image ' />
                             </div>
                         </div>
-                        <div class="block text" data-type="text" data-title="text" data-id="42">
+                        <div class="block text" data-type="text" data-title="text" data-id="40">
                             <div style="">Advisor<br>
-                                Khanspasha Feaster<br>
-                                Sr. Director, Leader Dev<br>
+                                Sandra Howe<br>
+                                SVP, Global Marketing<br>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column grid_6 omega">
+
+                        <div class="block image" data-type="image" data-title="image" data-id="32">
+                            <div align='left'>
+                                <img src="{{asset('img/chapter/668219_2347057_1404240589.png')}}" style='float:left;'  class='image ' />
+                            </div>
+                        </div>
+                        <div class="block text" data-type="text" data-title="text" data-id="45">
+                            <div style="">Advisor<br>
+                                Darrel Hegar<br>
+                                RVP, Operations<br>
                                 Time Warner Cable
+                                &nbsp;<br>
                             </div>
                         </div>
                     </div>
