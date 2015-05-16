@@ -47,4 +47,13 @@ class MainController extends Controller
         return view('main.photos', compact('files'));
     }
 
+    /**
+     *
+     * return from paypal donation
+     */
+    public function success()
+    {
+        return view('main.success');
+    }
+
 }

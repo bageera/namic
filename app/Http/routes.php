@@ -19,6 +19,7 @@ Route::get('issue-1', ['as' => 'issue-1','uses' => 'MainController@issue1']);
 Route::get('membership', ['as' => 'membership','uses' => 'MainController@membership']);
 Route::get('scholarships', ['as' => 'scholarships','uses' => 'MainController@scholarships']);
 Route::get('event-photos', ['as' => 'photos','uses' => 'MainController@photos']);
+Route::get('success', ['as' => 'success','uses' => 'MainController@success']);
 
 
 Route::controllers([
