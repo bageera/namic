@@ -33,7 +33,9 @@ a:link, a:visited{
 
 a:hover{
     text-decoration: none;
+    /*
     background-color: #333333;
+    */
     color: #FFFFFF;
 }
 

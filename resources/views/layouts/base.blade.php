@@ -12,17 +12,19 @@
     <!-- css includes -->
     <link type="text/css" href="{{asset('css/base.css')}}" rel="stylesheet" />
     <link type="text/css" href="{{asset('css/style.css')}}" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.3.0/ekko-lightbox.min.css" rel="stylesheet">
     <link type="text/css" href="{{asset('css/freshstart.css')}}" rel="stylesheet" />
 
     <!--
     <link type="text/css" href="/resources/site/snappages.v1.min.css" rel="stylesheet" />
     <link type="text/css" href="/resources/site/utils/slider/jslider.css" rel="stylesheet" />
     -->
-    <!-- javascript includes -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
-    <!-- <script type="text/javascript" src="http://www.linkedin.com/js/public-profile/widget-os.js"></script>
+
+    <!--
+    <script src="//code.jquery.com/jquery.js"></script>
+
+    <script type="text/javascript" src="http://www.linkedin.com/js/public-profile/widget-os.js"></script>
     <script type="text/javascript" src="/resources/site/snappages.v1.min.js"></script>
     <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
     -->
@@ -118,6 +120,61 @@
 </div>
     <!-- end of wrapper -->
 </div>
+<!-- javascript includes -->
+
+<!--
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+-->
+<script src="//code.jquery.com/jquery.js"></script>
+
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.3.0/ekko-lightbox.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function ($) {
+
+        // delegate calls to data-toggle="lightbox"
+        $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function(event) {
+            event.preventDefault();
+            return $(this).ekkoLightbox({
+                onShown: function() {
+                    if (window.console) {
+                        return console.log('image loaded');
+                    }
+                },
+                onNavigate: function(direction, itemIndex) {
+                    if (window.console) {
+                        return console.log('Navigating '+direction+'. Current item: '+itemIndex);
+                    }
+                }
+            });
+        });
+
+        //Programatically call
+        $('#open-image').click(function (e) {
+            e.preventDefault();
+            $(this).ekkoLightbox();
+        });
+
+        $(document).delegate('*[data-gallery="navigateTo"]', 'click', function(event) {
+            event.preventDefault();
+            return $(this).ekkoLightbox({
+                onShown: function() {
+                    var a = this.modal_content.find('.modal-footer a');
+                    if(a.length > 0) {
+                        a.click(function(e) {
+                            e.preventDefault();
+                            this.navigateTo(2);
+                        }.bind(this));
+                    }
+                }
+            });
+        });
+
+    });
+</script>
+
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
