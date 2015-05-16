@@ -131,6 +131,20 @@
                             </div>
                         </div>
 
+                        <div class="block image" data-type="image" data-title="image" data-id="32">
+                            <div align='left'>
+                                <img src="{{asset('img/chapter/668219_2347057_1404240589.png')}}" style='float:left;'  class='image ' />
+                            </div>
+                        </div>
+                        <div class="block text" data-type="text" data-title="text" data-id="45">
+                            <div style="">Advisor<br>
+                                Darrel Hegar<br>
+                                RVP, Operations<br>
+                                Time Warner Cable
+
+                            </div>
+                        </div>
+
                     </div>
                     <div class="column grid_6">
                         <div class="block image" data-type="image" data-title="image" data-id="34">
@@ -146,19 +160,7 @@
                                 &nbsp;<br>
                             </div>
                         </div>
-                        <div class="block image" data-type="image" data-title="image" data-id="32">
-                            <div align='left'>
-                                <img src="{{asset('img/chapter/668219_2347057_1404240589.png')}}" style='float:left;'  class='image ' />
-                            </div>
-                        </div>
-                        <div class="block text" data-type="text" data-title="text" data-id="45">
-                            <div style="">Advisor<br>
-                                Darrel Hegar<br>
-                                RVP, Operations<br>
-                                Time Warner Cable
 
-                            </div>
-                        </div>
 
                     </div>
                     <div class="column grid_6 omega">
