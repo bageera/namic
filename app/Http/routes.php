@@ -10,16 +10,20 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::group(array('before' => 'guest'), function () {
 
-Route::get('/', ['as' => 'home','uses' => 'MainController@index']);
-Route::get('chapter', ['as' => 'chapter','uses' => 'MainController@chapter']);
-Route::get('events', ['as' => 'events','uses' => 'MainController@events']);
-Route::get('unplugged', ['as' => 'unplugged','uses' => 'MainController@unplugged']);
-Route::get('issue-1', ['as' => 'issue-1','uses' => 'MainController@issue1']);
-Route::get('membership', ['as' => 'membership','uses' => 'MainController@membership']);
-Route::get('scholarships', ['as' => 'scholarships','uses' => 'MainController@scholarships']);
-Route::get('event-photos', ['as' => 'photos','uses' => 'MainController@photos']);
-Route::get('success', ['as' => 'success','uses' => 'MainController@success']);
+    Route::get('/', ['as' => 'home','uses' => 'MainController@index']);
+    Route::get('chapter', ['as' => 'chapter','uses' => 'MainController@chapter']);
+    Route::get('events', ['as' => 'events','uses' => 'MainController@events']);
+    Route::get('unplugged', ['as' => 'unplugged','uses' => 'MainController@unplugged']);
+    Route::get('issue-1', ['as' => 'issue-1','uses' => 'MainController@issue1']);
+    Route::get('membership', ['as' => 'membership','uses' => 'MainController@membership']);
+    Route::get('scholarships', ['as' => 'scholarships','uses' => 'MainController@scholarships']);
+    Route::get('event-photos', ['as' => 'photos','uses' => 'MainController@photos']);
+    Route::get('success', ['as' => 'success','uses' => 'MainController@success']);
+
+});
+
 
 
 Route::controllers([
