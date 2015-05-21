@@ -99,12 +99,12 @@
                             <div style="">Advisor<br>
                                 Mark Holmes<br>
                                 VP Decision Support, Finance<br>
-
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             </div>
                         </div>
                         <div class="block image" data-type="image" data-title="image" data-id="37">
                             <div align='left'>
-                                <img src="{{asset('img/chapter/668219_2347063_1404240590.png')}}" style='float:left;'  class='image ' />
+                                <img src="{{asset('img/chapter/kfeaster.jpg')}}" style='float:left;'  class='image ' />
                             </div>
                         </div>
                         <div class="block text" data-type="text" data-title="text" data-id="42">
