@@ -31,24 +31,7 @@
                                 servicing: Charlotte, Greensboro, Raleigh, and South Carolina
                             </div>
                         </div>
-                        <div class="block heading" data-type="heading" data-title="heading" data-id="2">
-                            <h3>
-                                <div class='h3' style='text-align:left;'>
-                                    Digital Media Summit
-                                </div>
-                            </h3>
-                        </div>
-                        <div class="block imagetext" data-type="imagetext" data-title="imagetext" data-id="3">
-                            <img src="{{asset('img/events/685423_1456315_1407944650.jpg')}}" style='float:left;'  class='image' />
-                            <div style="">
-                                The Carolinas Chapter of the National Association of Multi-Ethnicity in Communications (NAMIC)
-                                hosts its annual Digital Media Summit in the Fall in Charlotte, NC. Carol Hevey, the EVP of Operations,
-                                Time Warner Cable East Region  welcomes attendees to an engaging,
-                                half-day event focused on the evolution of digital media and its impact on communications companies.
-                                The event has assembled some of the most innovative minds in digital media and technology to discuss how communications companies
-                                and programmers are leveraging Digital Media to maintain their relevance.
-                            </div>
-                        </div>
+
                         <div class="block heading" data-type="heading" data-title="heading" data-id="4">
                             <h3>
                                 <div class='h3' style='text-align:left;'>
