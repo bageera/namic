@@ -32,6 +32,27 @@
                             </div>
                         </div>
 
+                        <div class="block heading" data-type="heading" data-title="heading" data-id="0">
+                            <h3>
+                                <div class='h3' style='text-align:left;'>Epic Awards
+                                </div>
+                            </h3>
+                        </div>
+                        <div class="block imagetext" data-type="imagetext" data-title="imagetext" data-id="1">
+                            <img src="{{asset('img/events/epic-awards.jpg')}}" style='float:left;'  class='image' />
+                            <div style="">
+                                <p>
+                                    The NAMIC-Carolinas EPIC (Exceptional Person In Communications) Award was created to recongnize
+                                    the outstanding achievements of leaders who advocate for Excellence and Diversity within the
+                                    communication industry.
+                                </p>
+                                <p>
+                                    NAMIC-Carolinas holds a yearly event to bring these exemplary leaders together to not only recognize them, but to inspire
+                                    others to follow in the footsteps of these awardees to make their mark on the industry.
+                                </p>
+                            </div>
+                        </div>
+
                         <div class="block heading" data-type="heading" data-title="heading" data-id="4">
                             <h3>
                                 <div class='h3' style='text-align:left;'>

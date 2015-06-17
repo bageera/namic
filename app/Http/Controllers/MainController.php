@@ -20,6 +20,11 @@ class MainController extends Controller
         return view('main.events');
     }
 
+    public function epicAwards()
+    {
+        return view('main.epic');
+    }
+
     public function unplugged()
     {
         return view('main.unplugged');
