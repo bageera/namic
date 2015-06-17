@@ -80,6 +80,8 @@
                     </li>
                     <li style="z-index:78;" id="nav_events"  ><a class="@if (Request::path() === 'events') selected @endif" href="{{ URL::to('events') }}" target="_self"><span></span>Events</a>
                     </li>
+                    <li style="z-index:78;" id="nav_awards"  ><a class="disabled" href="#" target="_self"><span></span>Epic Awards</a>
+                    </li>
                     <li style="z-index:77;" id="nav_unplugged"  ><a class="@if (Request::path() === 'unplugged') selected @endif" href="{{ URL::to('unplugged') }}" target="_self"><span></span>Unplugged</a>
                     </li>
                     <li style="z-index:76;" id="nav_membership"  ><a class="@if (Request::path() === 'membership') selected @endif" href="{{ URL::to('membership') }}" target="_self"><span></span>Membership</a>
