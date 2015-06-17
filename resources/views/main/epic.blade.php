@@ -20,7 +20,7 @@
                     <div class="panel-body">
                         <p>
                             The sixth man in basketball is a player who is not a starter, but comes off the bench much more
-                            often than other reserves, and often is the first plater to be substituted in the game. The presence
+                            often than other reserves, and often is the first player to be substituted in the game. The presence
                             of a good sixth man is often a sign of a team excellence. These team members also act as leaders and step up beyond their position
                             requirements to lead their department to excellence.
                         </p>
@@ -38,10 +38,8 @@
                     <div class="panel-heading">Mentorship Award </div>
                     <div class="panel-body">
                         <p>
-                            The sixth man in basketball is a player who is not a starter, but comes off the bench much more
-                            often than other reserves, and often is the first plater to be substituted in the game. The presence
-                            of a good sixth man is often a sign of a team excellence. These team members also act as leaders and step up beyond their position
-                            requirements to lead their department to excellence.
+                            This candidate for this award has a strong history of mentoring others throughout their career. They
+                            empower and advocate for others through both formal and informal mentoring.
                         </p>
 
                     </div>
@@ -57,10 +55,9 @@
                     <div class="panel-heading">Outstanding Achievements in Technology </div>
                     <div class="panel-body">
                         <p>
-                            The sixth man in basketball is a player who is not a starter, but comes off the bench much more
-                            often than other reserves, and often is the first plater to be substituted in the game. The presence
-                            of a good sixth man is often a sign of a team excellence. These team members also act as leaders and step up beyond their position
-                            requirements to lead their department to excellence.
+                            This award recognizes a leader with visionary ability that has contributed to the advancement of Technology in the
+                            Communications Industry. This individual is viewed as an industry pioneer and supports others through mentorship, career development
+                            and advocacy of diversity in the Communications Industry.
                         </p>
 
                     </div>
@@ -76,10 +73,10 @@
                     <div class="panel-heading">Career Achievement Award </div>
                     <div class="panel-body">
                         <p>
-                            The sixth man in basketball is a player who is not a starter, but comes off the bench much more
-                            often than other reserves, and often is the first plater to be substituted in the game. The presence
-                            of a good sixth man is often a sign of a team excellence. These team members also act as leaders and step up beyond their position
-                            requirements to lead their department to excellence.
+                            This is the highest award given in the NAMIC - Carolinas Leadership Recognition Program. This individual
+                            exemplifies a Senior Leader in the Communications Industry that has consistently supported and advocated for Diversity int he Communications
+                            Industry. This individual not only blazed a path for others to follow, but helped support others that are on the career ladder to
+                            advance their careers.
                         </p>
 
                     </div>
