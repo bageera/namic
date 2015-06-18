@@ -89,7 +89,11 @@
                 </div>
 
                 </div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <img src="{{asset('img/epic/side1.jpg')}}" style='float:left;'  class='img-thumbnail' />
+                <br />
+                <img src="{{asset('img/epic/side2.jpg')}}" style='float:left;'  class='img-thumbnail' />
+            </div>
 
 
         </div>
