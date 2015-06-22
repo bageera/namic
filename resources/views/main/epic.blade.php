@@ -93,6 +93,27 @@
                 <img src="{{asset('img/epic/side1.jpg')}}" style='float:left;'  class='img-thumbnail' />
                 <br />
                 <img src="{{asset('img/epic/side2.jpg')}}" style='float:left;'  class='img-thumbnail' />
+                <br />
+                <div class="block heading" data-type="heading" data-title="heading" data-id="8">
+                    <h3>
+                        <div class='h3' style='text-align:left;'>
+                            EPIC Awards Submission Form
+                        </div>
+                    </h3>
+                </div>
+                <div class="block download" data-type="download" data-title="download" data-id="17">
+                    <div align="left">
+                        <div class="download-button rollover" align="left" style="padding:7px;display:inline-block;" data-fileID="101980" data-url="{{asset('files/events/New 2014 NAMIC Program Calendar communication2.pdf')}}" data-type="pdf" >
+                            <img src="{{asset('img/events/pdf_file_30.png')}}" style="float:left;"/>
+                            <img src="{{asset('img/events/cloud_download_25.png')}}" style="margin-top:8px;margin-left:-15px;float:left"/>
+                            <div style="float:left;margin-left:5px;margin-top:-2px;">
+                                <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">Submission Form</div>
+                                <a href="{{asset('files/epic/epicform.docx')}}">click to download</a>
+                            </div>
+                            <div style="clear:both;"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
