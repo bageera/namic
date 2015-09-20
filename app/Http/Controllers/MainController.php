@@ -1,5 +1,7 @@
 <?php
 namespace App\Http\Controllers;
+use Intervention\Image\ImageManagerStatic as Image;
+use Intervention\Image\File;
 
 class MainController extends Controller
 {
@@ -47,9 +49,37 @@ class MainController extends Controller
 
     public function photos()
     {
-        $files = glob("img/events/lnl2014/*.{jpg,JPG}", GLOB_BRACE);
 
-        return view('main.photos', compact('files'));
+        $mixer = glob("img/events/bben_mixer/*.{jpg,JPG}", GLOB_BRACE);
+        $dd2015 = glob("img/events/diversityday/*.{jpg,JPG}", GLOB_BRACE);
+
+        foreach($mixer as $file)
+        {
+
+
+            if (! file_exists(dirname($file)."/thumb/".basename($file)))
+            {
+                $img = Image::make($file)->resize(200, 200);
+                $img->save($img->dirname. "/thumb/" . $img->filename. "." .$img->extension);
+            }
+
+
+        }
+
+        foreach($dd2015 as $file)
+        {
+
+
+            if (! file_exists(dirname($file)."/thumb/".basename($file)))
+            {
+                $img = Image::make($file)->resize(200, 200);
+                $img->save($img->dirname. "/thumb/" . $img->filename. "." .$img->extension);
+            }
+
+
+        }
+
+        return view('main.photos', compact('mixer','dd2015'));
     }
 
     /**
@@ -60,5 +90,7 @@ class MainController extends Controller
     {
         return view('main.success');
     }
+
+
 
 }

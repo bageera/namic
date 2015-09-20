@@ -12,18 +12,39 @@
             </div>
         </div>
 
+
         <div class="panel panel-primary">
-            <div class="panel-heading">Lunch and Learn 2014 </div>
+            <div class="panel-heading">Namic Mixer with BBEN 2015 </div>
             <div class="panel-body">
 
-               @foreach($files as $file)
+                @foreach($mixer as $file)
+
                     <div class="col-lg-2 col-sm-3 col-xs-4">
                         <a href="{{$file}}" data-toggle="lightbox" data-gallery="lunchnlearn2014">
-                            <img src="http://placehold.it/200x200" class="thumbnail img-responsive">
+
+                            <img src="{{dirname($file)}}/thumb/{{basename($file)}}" class="thumbnail img-responsive">
                         </a>
                     </div>
 
-                   @endforeach
+                @endforeach
+
+            </div>
+        </div>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">Diversity Day 2015 </div>
+            <div class="panel-body">
+
+                @foreach($dd2015 as $file)
+
+                    <div class="col-lg-2 col-sm-3 col-xs-4">
+                        <a href="{{$file}}" data-toggle="lightbox" data-gallery="lunchnlearn2014">
+
+                            <img src="{{dirname($file)}}/thumb/{{basename($file)}}" class="thumbnail img-responsive">
+                        </a>
+                    </div>
+
+                @endforeach
 
             </div>
         </div>

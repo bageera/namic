@@ -151,6 +151,8 @@ return [
          * 3rd party providers
          */
         'Collective\Html\HtmlServiceProvider',
+        'Intervention\Image\ImageServiceProvider',
+        'GrahamCampbell\Flysystem\FlysystemServiceProvider'
 
 	],
 
@@ -205,6 +207,8 @@ return [
          */
         'Form'      => 'Collective\Html\FormFacade',
         'Html'      => 'Collective\Html\HtmlFacade',
+        'Image' => 'Intervention\Image\Facades\Image',
+        'Flysystem' => 'GrahamCampbell\Flysystem\Facades\Flysystem'
 
 	],
 
