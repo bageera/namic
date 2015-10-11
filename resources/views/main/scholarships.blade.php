@@ -96,7 +96,9 @@
                                 <img src="{{asset('img/scholarships/jones.jpg')}}" />
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading"><b>Sydney Jones </b></h4>
+                                <h4 class="media-heading"><b>Sydney Jones </b> <a href='https://www.linkedin.com/pub/sydney-jones/7b/942/462' target='_blank' class='imageLink'>
+                                        <img src="{{asset('img/main/linkedin-32x32.png')}}" alt='follow on'/>
+                                    </a></h4>
                                 <h4 class="media-heading">UNC Chapel Hill '15 </h4>
                                 <h4 class="media-heading">Business Administration Major</h4>
                                 <i>Portfolio Management Analyst</i>
