@@ -39,6 +39,7 @@
                             </div>
                         </h1>
                     </div>
+
                     <div class="block text" data-type="text" data-title="text" data-id="1">
                         <div class="media">
                             <div class="media-left">
@@ -87,6 +88,31 @@
                         </div>
 
                         <div class="caption">NAMIC-CAROLINAS Scholarship Recipient of 2014-2015</div>
+                    </div>
+
+                    <div class="block text" data-type="text" data-title="text" data-id="1">
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="{{asset('img/scholarships/jones.jpg')}}" />
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading"><b>Sydney Jones </b></h4>
+                                <h4 class="media-heading">UNC Chapel Hill '15 </h4>
+                                <h4 class="media-heading">Business Administration Major</h4>
+                                <i>Portfolio Management Analyst</i>
+                                <p>While in school Sydney also received a minor in spanish and served as a Minority Advisor to first year students.
+                                Outside of school she enjoys playing classical piano, brushing up on her golf game, and serving as a mentor to high school students as they embark
+                                 on their college application journey.</p>
+                                <p>Joseph E. & Grace Needham Pogue Scholar</p>
+                                <p>National Society of Collegiate Scholars</p>
+                                <p>Kenan-Flagler award for Undergraduate Leadership & Service</p>
+                            </div>
+
+
+
+                        </div>
+                        <p>B.S. Business Administration</p>
+                        <div class="caption">NAMIC-CAROLINAS Scholarship Recipient of 2013-2014</div>
                     </div>
                     <div class="block heading" data-type="heading" data-title="heading" data-id="2">
                         <h1>
