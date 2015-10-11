@@ -119,10 +119,10 @@
                 <img src="{{asset('img/epic/side2_2015.jpg')}}" style='float:left;'  class='img-thumbnail' />
                 <br />
                 <div class="block heading" data-type="heading" data-title="heading" data-id="8">
-                    <h3>
-                        <div class='h3' style='text-align:left;'>
+                    <h3 class="h3">
+
                             EPIC Awards Submission Form
-                        </div>
+
                     </h3>
                 </div>
                 <div class="block download" data-type="download" data-title="download" data-id="17">
