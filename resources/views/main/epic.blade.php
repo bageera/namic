@@ -26,6 +26,12 @@
                         </p>
 
                     </div>
+                    <div class="panel-footer">2015 Winners
+                        <ul>
+                            <li><b>Jamie Bell</b> - Supervisor, Customer Care, TWC</li>
+
+                        </ul>
+                    </div>
                     <div class="panel-footer">2014 Winners
                         <ul>
                             <li><b>Linnette Banks</b> - Supervisor, Customer Care, TWC</li>
@@ -42,6 +48,12 @@
                             empower and advocate for others through both formal and informal mentoring.
                         </p>
 
+                    </div>
+                    <div class="panel-footer">2015 Winner
+                        <ul>
+                            <li><b>Khanspasha Feaster</b></li>
+
+                        </ul>
                     </div>
                     <div class="panel-footer">2014 Winner
                         <ul>
@@ -60,6 +72,12 @@
                             and advocacy of diversity in the Communications Industry.
                         </p>
 
+                    </div>
+                    <div class="panel-footer">2015 Winner
+                        <ul>
+                            <li><b>James Manchester</b></li>
+
+                        </ul>
                     </div>
                     <div class="panel-footer">2014 Winner
                         <ul>
@@ -80,6 +98,12 @@
                         </p>
 
                     </div>
+                    <div class="panel-footer">2015 Winner
+                        <ul>
+                            <li><b>Charlon McIntosh</b></li>
+
+                        </ul>
+                    </div>
                     <div class="panel-footer">2014 Winner
                         <ul>
                             <li><b>Mike Lajoie</b> - EVP, Chief Tech and NetOps, TWC</li>
@@ -90,9 +114,9 @@
 
                 </div>
             <div class="col-md-4">
-                <img src="{{asset('img/epic/side1.jpg')}}" style='float:left;'  class='img-thumbnail' />
+                <img src="{{asset('img/epic/side1_2015.jpg')}}" style='float:left;'  class='img-thumbnail' />
                 <br />
-                <img src="{{asset('img/epic/side2.jpg')}}" style='float:left;'  class='img-thumbnail' />
+                <img src="{{asset('img/epic/side2_2015.jpg')}}" style='float:left;'  class='img-thumbnail' />
                 <br />
                 <div class="block heading" data-type="heading" data-title="heading" data-id="8">
                     <h3>
