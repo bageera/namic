@@ -28,7 +28,7 @@
                     </div>
                     <div class="panel-footer">2015 Winners
                         <ul>
-                            <li><b>Jamie Bell</b> - Supervisor, Customer Care, TWC</li>
+                            <li><b>Jamie Bell</b> - Supervisor, Order Management, Commercial Services, TWC</li>
 
                         </ul>
                     </div>
@@ -51,7 +51,7 @@
                     </div>
                     <div class="panel-footer">2015 Winner
                         <ul>
-                            <li><b>Khanspasha Feaster</b></li>
+                            <li><b>Khanspasha Feaster</b> - Sr. Director, Leadership Development</li>
 
                         </ul>
                     </div>
@@ -75,7 +75,7 @@
                     </div>
                     <div class="panel-footer">2015 Winner
                         <ul>
-                            <li><b>James Manchester</b></li>
+                            <li><b>James Manchester</b> - SVP, Video Ecosystem/App Ops</li>
 
                         </ul>
                     </div>
@@ -100,7 +100,7 @@
                     </div>
                     <div class="panel-footer">2015 Winner
                         <ul>
-                            <li><b>Charlon McIntosh</b></li>
+                            <li><b>Charlon McIntosh</b> - GVP, Customer Care, Customer Service</li>
 
                         </ul>
                     </div>
@@ -114,16 +114,18 @@
 
                 </div>
             <div class="col-md-4">
+                <div class="block">
                 <img src="{{asset('img/epic/side1_2015.jpg')}}" style='float:left;'  class='img-thumbnail' />
                 <br />
                 <img src="{{asset('img/epic/side2_2015.jpg')}}" style='float:left;'  class='img-thumbnail' />
                 <br />
-                <div class="block heading" data-type="heading" data-title="heading" data-id="8">
-                    <h3 class="h3">
+                    <div class="block heading" data-type="heading" data-title="heading" data-id="8">
+                        <h3 class="h3">
 
-                            EPIC Awards Submission Form
+                                EPIC Awards Submission Form
 
-                    </h3>
+                        </h3>
+                    </div>
                 </div>
                 <div class="block download" data-type="download" data-title="download" data-id="17">
                     <div align="left">
@@ -138,6 +140,8 @@
                         </div>
                     </div>
                 </div>
+
+
             </div>
 
 
