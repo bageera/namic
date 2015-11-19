@@ -10,7 +10,7 @@
             <!-- banner -->
             <div class="col-md-16">
 
-                <img src="{{asset('img/main/untitled.png')}}" data-loaded="false" data-src="{{asset('img/main/untitled.png')}}">
+                <img src="{{asset('img/main/headbanner.jpg')}}" data-loaded="false" data-src="{{asset('img/main/headbanner.jpg')}}">
             </div>
             <div class="col-md-8">
                 <h3 class="h3">
