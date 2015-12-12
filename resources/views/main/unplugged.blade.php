@@ -39,6 +39,13 @@
                             </a>
                         </div>
                     </div>
+                    <div class="block text" data-type="text" data-title="text" data-id="5">
+                        <div style="text-align:center;">
+                            <a href="{{asset('files/unplugged/NAMIC_unplugged_4.0.pdf')}}" target="_blank">
+                                NAMIC-Carolinas UNPLUGGED Issues 4.0
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div style="clear:both;">
 
