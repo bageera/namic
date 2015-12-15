@@ -52,6 +52,8 @@ class MainController extends Controller
 
         $mixer = glob("img/events/bben_mixer/*.{jpg,JPG}", GLOB_BRACE);
         $dd2015 = glob("img/events/diversityday/*.{jpg,JPG}", GLOB_BRACE);
+        $epic2015 = glob("img/events/epic2015/*.{jpg,JPG}", GLOB_BRACE);
+        $wict2015 = glob("img/events/wict2015/*.{jpg,JPG}", GLOB_BRACE);
 
         foreach($mixer as $file)
         {
@@ -79,7 +81,33 @@ class MainController extends Controller
 
         }
 
-        return view('main.photos', compact('mixer','dd2015'));
+        foreach($epic2015 as $file)
+        {
+
+
+            if (! file_exists(dirname($file)."/thumb/".basename($file)))
+            {
+                $img = Image::make($file)->resize(200, 200);
+                $img->save($img->dirname. "/thumb/" . $img->filename. "." .$img->extension);
+            }
+
+
+        }
+
+        foreach($wict2015 as $file)
+        {
+
+
+            if (! file_exists(dirname($file)."/thumb/".basename($file)))
+            {
+                $img = Image::make($file)->resize(200, 200);
+                $img->save($img->dirname. "/thumb/" . $img->filename. "." .$img->extension);
+            }
+
+
+        }
+
+        return view('main.photos', compact('mixer','dd2015','epic2015','wict2015'));
     }
 
     /**

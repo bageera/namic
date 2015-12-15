@@ -13,6 +13,25 @@
         </div>
 
 
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">EPIC Awards 2015 </div>
+            <div class="panel-body">
+
+                @foreach($epic2015 as $file)
+
+                    <div class="col-lg-2 col-sm-3 col-xs-4">
+                        <a href="{{$file}}" data-toggle="lightbox" data-gallery="lunchnlearn2014">
+
+                            <img src="{{dirname($file)}}/thumb/{{basename($file)}}" class="thumbnail img-responsive">
+                        </a>
+                    </div>
+
+                @endforeach
+
+            </div>
+        </div>
+
         <div class="panel panel-primary">
             <div class="panel-heading">Namic Mixer with BBEN 2015 </div>
             <div class="panel-body">
