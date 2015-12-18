@@ -115,17 +115,17 @@
                 </div>
             <div class="col-md-4">
                 <div class="block">
-                <img src="{{asset('img/epic/side1_2015.jpg')}}" style='float:left;'  class='img-thumbnail' />
-                <br />
-                <img src="{{asset('img/epic/side2_2015.jpg')}}" style='float:left;'  class='img-thumbnail' />
-                <br />
-                    <div class="block heading" data-type="heading" data-title="heading" data-id="8">
-                        <h3 class="h3">
+                    <img src="{{asset('img/epic/side1_2015.jpg')}}" style='float:left;'  class='img-thumbnail' />
+                    <br />
+                    <img src="{{asset('img/epic/side2_2015.jpg')}}" style='float:left;'  class='img-thumbnail' />
+                    <br />
+                        <div class="block heading" data-type="heading" data-title="heading" data-id="8">
+                            <h3 class="h3">
 
-                                EPIC Awards Submission Form
+                                    EPIC Awards Submission Form
 
-                        </h3>
-                    </div>
+                            </h3>
+                        </div>
                 </div>
                 <div class="block download" data-type="download" data-title="download" data-id="17">
                     <div align="left">
@@ -139,6 +139,32 @@
                             <div style="clear:both;"></div>
                         </div>
                     </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Auction Item Winners </div>
+                    <div class="panel-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <span class="badge">Apple Watch</span>
+                                Mechel Morrow
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">IPAD</span>
+                                Jim Dessi
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">Psnthers Football</span>
+                                Garth David
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">Roku</span>
+                                Edith Faial
+                            </li>
+                        </ul>
+
+                    </div>
+
                 </div>
 
 
