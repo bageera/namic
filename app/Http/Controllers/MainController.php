@@ -108,20 +108,9 @@ class MainController extends Controller
 
         }
 
-        foreach($chapter2015 as $file)
-        {
 
 
-            if (! file_exists(dirname($file)."/thumb/".basename($file)))
-            {
-                $img = Image::make($file)->resize(200, 200);
-                $img->save($img->dirname. "/thumb/" . $img->filename. "." .$img->extension);
-            }
-
-
-        }
-
-        return view('main.photos', compact('mixer','dd2015','epic2015','wict2015','chapter2015'));
+        return view('main.photos', compact('mixer','dd2015','epic2015','wict2015'));
     }
 
     /**
