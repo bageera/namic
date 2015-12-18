@@ -154,7 +154,7 @@
                                 Jim Dessi
                             </li>
                             <li class="list-group-item">
-                                <span class="badge">Psnthers Football</span>
+                                <span class="badge">Panthers Football</span>
                                 Garth David
                             </li>
                             <li class="list-group-item">
