@@ -29,12 +29,12 @@
                     <div class="column grid_6 alpha">
                         <div class="block image" data-type="image" data-title="image" data-id="21">
                             <div align='left'>
-                                <img src="{{asset('img/chapter/668219_2347047_1404240589.png')}}" style='float:left;'  class='image ' />
+                                <img src="{{asset('img/chapter/monica_alexander.jpg')}}" style='float:left;'  class='image ' />
                             </div>
                         </div>
                         <div class="block text" data-type="text" data-title="text" data-id="26">
                             <div style=""><b>President</b><br>
-                                Monica L. Moore
+                                Monica Alexander
                             </div>
                         </div>
                     </div>
@@ -228,5 +228,11 @@
             <div style="clear:both;"></div>
         </div>
     </div>
+
+    <div>
+        <h2>Comittee</h2>
+
+    </div>
+
 </div>
    @endsection
