@@ -40,38 +40,38 @@
                     </div>
                     <div class="column grid_6"><div class="block image" data-type="image" data-title="image" data-id="22">
                             <div align='left'>
-                                <img src="{{asset('img/chapter/tunza_head.png')}}" style='float:left;'  class='image ' />
+                                <img src="{{asset('http://placehold.it/205x277')}}" style='float:left;'  class='image ' />
                             </div>
                         </div>
                         <div class="block text" data-type="text" data-title="text" data-id="27">
                             <div style=""><b>Vice President</b><br>
-                                Tunza Wallace
+                                David Garth
                             </div>
                         </div>
                     </div>
                     <div class="column grid_6">
                         <div class="block image" data-type="image" data-title="image" data-id="23">
                             <div align='left'>
-                                <img src="{{asset('img/chapter/668219_2347049_1404240589.png')}}" style='float:left;'  class='image ' />
+                                <img src="{{asset('http://placehold.it/205x277')}}" style='float:left;'  class='image ' />
                             </div>
                         </div>
                         <div class="block text" data-type="text" data-title="text" data-id="28">
                             <div style="">
                                 <b>Treasurer</b><br>
-                                Kellee Evans
+                                Carlos Cuevas
                             </div>
                         </div>
                     </div>
                     <div class="column grid_6 omega">
                         <div class="block image" data-type="image" data-title="image" data-id="24">
                             <div align='left'>
-                                <img src="{{asset('img/chapter/668219_2347050_1404240589.png')}}" style='float:left;'  class='image ' />
+                                <img src="{{asset('http://placehold.it/205x277')}}" style='float:left;'  class='image ' />
                             </div>
                         </div>
                         <div class="block text" data-type="text" data-title="text" data-id="29">
                             <div style="">
                                 <b>Secretary</b><br>
-                                Danine Prakash
+                                Martina Ackridge
                             </div>
                         </div>
                     </div>
