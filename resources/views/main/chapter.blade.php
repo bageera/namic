@@ -133,6 +133,20 @@
                             </div>
                         </div>
 
+                        <div class="block image" data-type="image" data-title="image" data-id="32">
+                            <div align='left'>
+                                <img src="{{asset('img/chapter/charlene.jpg')}}" style='float:left;'  class='image ' />
+                            </div>
+                        </div>
+                        <div class="block text" data-type="text" data-title="text" data-id="45">
+                            <div style="">Advisor<br>
+                                Charlene Keys<br>
+                                AVP, Field Operations<br>
+                                Time Warner Cable
+
+                            </div>
+                        </div>
+
 
 
                     </div>
