@@ -71,7 +71,7 @@
                         <div class="block text" data-type="text" data-title="text" data-id="29">
                             <div style="">
                                 <b>Secretary</b><br>
-                                Martina Ackridge
+                                Open
                             </div>
                         </div>
                     </div>
