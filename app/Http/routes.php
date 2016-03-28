@@ -14,6 +14,7 @@ Route::group(array('before' => 'guest'), function () {
 
     Route::get('/', ['as' => 'home','uses' => 'MainController@index']);
     Route::get('chapter', ['as' => 'chapter','uses' => 'MainController@chapter']);
+    Route::get('committee', ['as' => 'committee', 'uses' => 'CommitteeController@index']);
     Route::get('epic-awards', ['as' => 'epic-awards','uses' => 'MainController@epicAwards']);
     Route::get('events', ['as' => 'events','uses' => 'MainController@events']);
     Route::get('event-photos', ['as' => 'photos','uses' => 'MainController@photos']);
