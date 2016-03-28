@@ -83,7 +83,7 @@
                         </div>
                         <div class="block text" data-type="text" data-title="text" data-id="29">
                             <div style="">
-                                <b>President 2015</b><br>
+                                <b>Immediate Past President</b><br>
                                 Monica Moore
                             </div>
                         </div>
