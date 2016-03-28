@@ -52,7 +52,7 @@
                     <div class="column grid_6">
                         <div class="block image" data-type="image" data-title="image" data-id="23">
                             <div align='left'>
-                                <img src="{{asset('http://placehold.it/205x277')}}" style='float:left;'  class='image ' />
+                                <img src="{{asset('img/chapter/ccuevas.jpg')}}" style='float:left;'  class='image ' />
                             </div>
                         </div>
                         <div class="block text" data-type="text" data-title="text" data-id="28">
