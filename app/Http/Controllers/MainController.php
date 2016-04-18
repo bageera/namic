@@ -2,6 +2,7 @@
 namespace App\Http\Controllers;
 use Intervention\Image\ImageManagerStatic as Image;
 use Intervention\Image\File;
+use App\Http\Requests\ContactRequest;
 
 class MainController extends Controller
 {
@@ -35,6 +36,20 @@ class MainController extends Controller
     public function issue1()
     {
         return view('unplugged.issue1');
+    }
+
+    public function contact()
+    {
+        return view('main.contact');
+    }
+
+    public function postContact(ContactRequest $request)
+    {
+
+        $this->dispatch(
+            new CreateNominationCommand($request->all())
+        );
+        return view('success');
     }
 
     public function membership()

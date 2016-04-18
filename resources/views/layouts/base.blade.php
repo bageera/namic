@@ -88,8 +88,11 @@
                     </li>
                     <li style="z-index:75;" id="nav_scholarships"  ><a class="@if (Request::path() === 'scholarships') selected @endif" href="{{ URL::to('scholarships') }}" target="_self"><span></span>Scholarships</a>
                     </li>
-                    <li style="z-index:74;" class="last" id="nav_event-photos"  ><a class="@if (Request::path() === 'photos') selected @endif" href="{{ URL::to('event-photos') }}" target="_self"><span></span>Event Photos</a>
+                    <li style="z-index:74;" id="nav_event-photos"  ><a class="@if (Request::path() === 'photos') selected @endif" href="{{ URL::to('event-photos') }}" target="_self"><span></span>Event Photos</a>
                     </li>
+       <!--             <li style="z-index:74;" class="last" id="nav_event-photos"  ><a class="@if (Request::path() === 'contact') selected @endif" href="{{ URL::to('contact') }}" target="_self"><span></span>Contact</a>
+                    </li> -->
+
                 </ul>
             </div>
             <div id="secondaryNav" onMouseOver="delaySecondaryNav()" onMouseOut="hideSecondaryNav()"></div>

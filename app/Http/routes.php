@@ -26,6 +26,9 @@ Route::group(array('before' => 'guest'), function () {
     Route::post('nomination', ['as' => 'nomination', 'uses' => 'NominationController@store']);
     Route::get('success', ['as' => 'success','uses' => 'MainController@success']);
 
+    Route::get('contact', ['as' => 'contact','uses' => 'MainController@contact']);
+    Route::post('contact', ['as' => 'contact', 'uses' => 'MainController@postContact']);
+
     Route::resource('nomination', 'NominationController', [
        'only' => ['create','store']
     ]);
