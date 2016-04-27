@@ -51,7 +51,7 @@
 
                     {!! Form::label('Message', 'Message', array('class' => 'col-md-2 control-label')) !!}
                     <div class="col-sm-6">
-                        {!! Form::textarea('message', null, array('class' => 'form-control','placeholder' => 'Message')) !!}
+                        {!! Form::textarea('contact_message', null, array('class' => 'form-control','placeholder' => 'Message')) !!}
                     </div>
                 </div>
 

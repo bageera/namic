@@ -15,7 +15,7 @@ class ContactRequest extends Request
 
         return [
 
-            'message' => 'required',
+            'contact_message' => 'required',
             'name' => 'required',
             'email' => 'required|email',
 

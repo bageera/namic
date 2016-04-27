@@ -23,7 +23,7 @@ class CreateContactCommand extends Command implements SelfHandling
 
 
         Mail::queue('emails.contacts.main', $this->data, function($message){
-            $message->from($this->data['email'], $this->data['name']);
+            $message->from('noreply@namiccarolinas.com', 'Contact Form');
             $message->to('support@nocturnalinc.com')->subject('New Contact Form Message');
 
         });
