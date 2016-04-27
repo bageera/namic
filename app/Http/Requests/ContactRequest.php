@@ -14,10 +14,10 @@ class ContactRequest extends Request
     {
 
         return [
-            'contact_category' => 'required',
-            'contact_message' => 'required',
-            'contact_name' => 'required',
-            'contact_email' => 'required|email',
+
+            'message' => 'required',
+            'name' => 'required',
+            'email' => 'required|email',
 
 
 

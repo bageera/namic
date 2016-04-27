@@ -15,7 +15,7 @@ return [
 	|
 	*/
 
-	'driver' => 'smtp',
+	'driver' => 'mailgun',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -54,7 +54,7 @@ return [
 	|
 	*/
 
-	'from' => ['address' => null, 'name' => null],
+	'from' => ['address' => 'noreply@namiccarolinas.com', 'name' => 'Namic Contact'],
 
 	/*
 	|--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return [
 	|
 	*/
 
-	'username' => null,
+	'username' => 'postmaster@mg.namiccarolinas.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return [
 	|
 	*/
 
-	'password' => null,
+	'password' => env('MAILGUN_PASSWORD'),
 
 	/*
 	|--------------------------------------------------------------------------

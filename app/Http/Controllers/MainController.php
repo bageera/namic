@@ -3,6 +3,7 @@ namespace App\Http\Controllers;
 use Intervention\Image\ImageManagerStatic as Image;
 use Intervention\Image\File;
 use App\Http\Requests\ContactRequest;
+use App\Commands\CreateContactCommand;
 
 class MainController extends Controller
 {
@@ -47,9 +48,9 @@ class MainController extends Controller
     {
 
         $this->dispatch(
-            new CreateNominationCommand($request->all())
+            new CreateContactCommand($request->all())
         );
-        return view('success');
+        return view('main.success');
     }
 
     public function membership()
@@ -60,6 +61,12 @@ class MainController extends Controller
     public function scholarships()
     {
         return view('main.scholarships');
+    }
+
+
+    public function success()
+    {
+        return view('main.success');
     }
 
     public function photos()
@@ -159,10 +166,7 @@ class MainController extends Controller
      *
      * return from paypal donation
      */
-    public function success()
-    {
-        return view('main.success');
-    }
+
 
 
 
