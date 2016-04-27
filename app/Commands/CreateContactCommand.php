@@ -24,7 +24,7 @@ class CreateContactCommand extends Command implements SelfHandling
 
         Mail::queue('emails.contacts.main', $this->data, function($message){
             $message->from('noreply@namiccarolinas.com', 'Contact Form');
-            $message->to('support@nocturnalinc.com')->subject('New Contact Form Message');
+            $message->to('contat@namiccarolinas.com')->subject('New Contact Form Message')->cc('support@nocturnalinc.com');
 
         });
         //send thank you/confirmation message back to customer
