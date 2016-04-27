@@ -41,11 +41,7 @@
                 </div>
 
 
-                <div class="divider"></div>
-                <img src="{{asset('img/main/716743_1635910_1401288004.jpg')}}" align='center'  class='image ' />
-                <div style=""><div>
-                        <a aria-describedby="ui-tooltip-17" href="http://www.namic.com/newsletters/wpdev/qa-with-garth-david-director-finance-time-warner-cable-and-namic-carolinas-president/" target="_self">Q&amp;A with Our NAMIC-Carolinas Advisor, David Garth </a></div>
-                </div>
+
             </div>
 
 
