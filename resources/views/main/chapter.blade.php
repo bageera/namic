@@ -249,10 +249,5 @@
         </div>
     </div>
 
-    <div>
-        <h2>Comittee</h2>
-
-    </div>
-
 </div>
    @endsection
