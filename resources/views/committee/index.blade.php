@@ -1,4 +1,4 @@
-@extends('layouts.base')
+@extends('layouts.new_base')
 @section('title')
     NAMIC-Carolinas - Committee
 @endsection
@@ -7,7 +7,7 @@
     <div id="container">
 
 
-        <div id="pageTitle" class="page-title">Namic Committees</div><br class="page-title" />
+        <div id="pageTitle" class="page-title">Namic Carolinas Committees</div><br class="page-title" />
         <div>
 
         </div>
