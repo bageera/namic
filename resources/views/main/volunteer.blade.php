@@ -15,7 +15,7 @@
             <div class="col-md-12">
 
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Marketing / Communication marketing&#64;namiccarolinas.com</div>
+                    <div class="panel-heading">Marketing / Communication </div>
                     <div class="panel-body">
                         <p>
                             Committee Description will be coming soon
@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Membership membership&#64;namiccarolinas.com</div>
+                    <div class="panel-heading">Membership</div>
                     <div class="panel-body">
                         <p>
                             Committee Description will be coming soon
@@ -45,7 +45,7 @@
                 </div>
 
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Programming programming&#64;namiccarolinas.com</div>
+                    <div class="panel-heading">Programming</div>
                     <div class="panel-body">
                         <p>
                             Committee Description will be coming soon
@@ -60,7 +60,7 @@
                 </div>
 
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Mentoring / Scholarship Chair mentoring&#64;namiccarolinas.com</div>
+                    <div class="panel-heading">Mentoring / Scholarship Chair</div>
                     <div class="panel-body">
                         <p>
                             Committee Description will be coming soon
