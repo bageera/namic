@@ -13,7 +13,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-
+                If any of the available position interest you feel free to reach out to us on our <a href="{{URL('contact')}}">contact page</a>
                 <div class="panel panel-primary">
                     <div class="panel-heading">Marketing / Communication </div>
                     <div class="panel-body">
