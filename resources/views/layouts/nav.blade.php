@@ -18,8 +18,10 @@
             </li>
             <li style="z-index:74;" id="nav_event-photos"  ><a class="@if (Request::path() === 'photos') selected @endif" href="{{ URL::to('event-photos') }}" target="_self"><span></span>Event Photos</a>
             </li>
-            <li style="z-index:74;" class="last" id="nav_event-photos"  ><a class="@if (Request::path() === 'contact') selected @endif" href="{{ URL::to('contact') }}" target="_self"><span></span>Contact</a>
+            <li style="z-index:74;" class="last" id="nav_contact"  ><a class="@if (Request::path() === 'contact') selected @endif" href="{{ URL::to('contact') }}" target="_self"><span></span>Contact US</a>
                     </li>
+            <li style="z-index:74;" class="last" id="nav_volunteers"  ><a class="@if (Request::path() === 'volunteer') selected @endif" href="{{ URL::to('volunteer') }}" target="_self"><span></span>Volunteers</a>
+            </li>
 
         </ul>
     </div>
