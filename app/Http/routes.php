@@ -25,6 +25,7 @@ Route::group(array('before' => 'guest'), function () {
     Route::get('epic-nominations', ['as' => 'nomination', 'uses' => 'NominationController@create']);
     Route::post('nomination', ['as' => 'nomination', 'uses' => 'NominationController@store']);
     Route::get('success', ['as' => 'success','uses' => 'MainController@success']);
+    Route::get('volunteer', ['as' => 'success','uses' => 'MainController@volunteer']);
 
     Route::get('contact', ['as' => 'contact','uses' => 'MainController@contact']);
     Route::post('contact', ['as' => 'contact', 'uses' => 'MainController@postContact']);

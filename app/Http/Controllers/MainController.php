@@ -69,6 +69,11 @@ class MainController extends Controller
         return view('main.success');
     }
 
+    public function volunteer()
+    {
+        return view('main.volunteer');
+    }
+
     public function photos()
     {
 
