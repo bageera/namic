@@ -41,6 +41,21 @@
                 </div>
 
 
+                <div class="block heading" data-type="heading" data-title="heading" data-id="12">
+                    <h3>
+                        <div class='h3' style='text-align:left;'>
+                            Our Mission
+                        </div>
+                    </h3>
+                </div>
+                <div class="block imagetext" data-type="imagetext" data-title="imagetext" data-id="3">
+                    <div style="">
+                        NAMIC Carolinas creates experiences that foster Inclusion, Equity and Career Advancement in the Communications Industry
+
+
+
+                    </div>
+                </div>
 
             </div>
 
@@ -77,6 +92,8 @@
 
                     </h3>
                 </div>
+
+
                 <div class="block image" data-type="image" data-title="image" data-id="11">
                     <div align='left'>
                         <a href='https://namic.site-ym.com/general/register_member_type.asp' target='_self' class='imageLink'>
