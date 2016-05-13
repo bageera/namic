@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Marketing / Communication marketing@namiccarolinas.com</div>
+                    <div class="panel-heading">Marketing / Communication marketing&#64;namiccarolinas.com</div>
                     <div class="panel-body">
                         <p>
                             Committee Description
@@ -28,7 +28,7 @@
                 </div>
 
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Membership membership@namiccarolinas.com</div>
+                    <div class="panel-heading">Membership membership&#64;namiccarolinas.com</div>
                     <div class="panel-body">
                         <p>
                             Committee Description
@@ -42,7 +42,7 @@
                 </div>
 
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Programming programming@namiccarolinas.com</div>
+                    <div class="panel-heading">Programming programming&#64;namiccarolinas.com</div>
                     <div class="panel-body">
                         <p>
                             Committee Description
@@ -56,7 +56,7 @@
                 </div>
 
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Mentoring / Scholarship Chair mentoring@namiccarolinas.com</div>
+                    <div class="panel-heading">Mentoring / Scholarship Chair mentoring&#64;namiccarolinas.com</div>
                     <div class="panel-body">
                         <p>
                             Committee Description
@@ -71,7 +71,7 @@
 
 
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Revenue Generation </div>
+                    <div class="panel-heading">Revenue Generation revenue&#64;namiccarolinas.com</div>
                     <div class="panel-body">
                         <p>
                             Committee Description
