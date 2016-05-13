@@ -31,7 +31,11 @@
                     <div class="panel-heading">Membership membership&#64;namiccarolinas.com</div>
                     <div class="panel-body">
                         <p>
-                            Committee Description
+                        Responsible for:
+                            <ul>
+                            <li>Student Recruitment</li>
+                            <li>Membership Event Staffing</li>
+                        </ul>
                         </p>
 
                     </div>
