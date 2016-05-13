@@ -50,7 +50,12 @@
                 </div>
                 <div class="block imagetext" data-type="imagetext" data-title="imagetext" data-id="3">
                     <div style="">
-                        NAMIC Carolinas creates experiences that foster Inclusion, Equity and Career Advancement in the Communications Industry
+                        <p>
+                            NAMIC Carolinas creates experiences that foster Inclusion, Equity and Career Advancement in the Communications Industry
+                        </p>
+                        <p>
+                            Core Values - Innovative, Inclusive, Relevant, Authentic, Development focused
+                        </p>
 
 
 
