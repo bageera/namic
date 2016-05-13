@@ -15,7 +15,9 @@
                 @include('layouts.partials.flash')
                 @include('layouts.partials.error')
             </div>
-            <div class="clear"></div>
+        </div>
+        <div class="row">
+
             <div class="col-lg-11">
 
                 {!! Form::open(['method' => 'POST', 'route' => 'contact', 'class' => 'form-horizontal']) !!}
