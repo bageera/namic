@@ -6,6 +6,8 @@
             <li style="z-index:79;" id="nav_about-the-chapter"  >
                 <a class="@if (Request::path() === 'chapter') selected @endif" href="{{ URL::to('chapter') }}" target="_self"><span></span>About the Chapter</a>
             </li>
+            <li style="z-index:78;" id="nav_committee"  ><a class="@if (Request::path() === 'committee') selected @endif" href="{{ URL::to('committee') }}" target="_self"><span></span>Committees</a>
+            </li>
             <li style="z-index:78;" id="nav_events"  ><a class="@if (Request::path() === 'events') selected @endif" href="{{ URL::to('events') }}" target="_self"><span></span>Events</a>
             </li>
             <li style="z-index:78;" id="nav_awards"  ><a class="@if (Request::path() === 'epic-awards') selected @endif" href="{{ URL::to('epic-awards') }}" target="_self"><span></span>Epic Awards</a>

@@ -1,4 +1,4 @@
-@extends('layouts.new_base')
+@extends('layouts.base')
 @section('title')
     NAMIC-Carolinas - Committee
 @endsection
