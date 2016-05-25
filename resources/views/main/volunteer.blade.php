@@ -27,6 +27,9 @@
                         If this will be your first time as a proctor we will have training sessions <b>May 27<sup>th</sup></b> at <b>10:00 AM</b>, <b>Noon</b>, and <b>2:00 PM</b>. Training
                         sessions will be approx 40 minutes
                     </p>
+                    <p>
+                        If you intend on volunteering you must register as a cmsvolunteer at <a href="https://www.cmsvolunteers.com">https://www.cmsvolunteers.com</a> which takes about 4 minutes.
+                    </p>
 
 
 
