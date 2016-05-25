@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b2d80976ea6f69dc7b90b48373dbda3c",
-    "content-hash": "3bb5d8348bab028f9dbfe5d9068d05cf",
+    "hash": "9e3157dc728d54ef1b0cb091a0400074",
+    "content-hash": "653121a2545d6d3136ed051aa7914a2d",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1143,6 +1143,55 @@
             "time": "2016-04-25 18:51:39"
         },
         {
+            "name": "maknz/slack",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maknz/slack.git",
+                "reference": "7f21fefc70c76b304adc1b3a780c8740dfcfb595"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maknz/slack/zipball/7f21fefc70c76b304adc1b3a780c8740dfcfb595",
+                "reference": "7f21fefc70c76b304adc1b3a780c8740dfcfb595",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "guzzlehttp/guzzle": "~6.0|~5.0|~4.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "4.2.*"
+            },
+            "suggest": {
+                "illuminate/support": "Required for Laravel support"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Maknz\\Slack\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "maknz",
+                    "email": "github@mak.geek.nz"
+                }
+            ],
+            "description": "A simple PHP package for sending messages to Slack, with a focus on ease of use and elegant syntax. Includes Laravel support out of the box.",
+            "keywords": [
+                "laravel",
+                "slack"
+            ],
+            "time": "2015-06-03 03:35:16"
+        },
+        {
             "name": "monolog/monolog",
             "version": "1.19.0",
             "source": {
@@ -1310,6 +1359,47 @@
                 "time"
             ],
             "time": "2015-11-04 20:07:17"
+        },
+        {
+            "name": "nicolasmahe/laravel-slack-output",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/NicolasMahe/Laravel-SlackOutput.git",
+                "reference": "fd6d80eb2e0b0619d08e288e11eeaac6c2736389"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NicolasMahe/Laravel-SlackOutput/zipball/fd6d80eb2e0b0619d08e288e11eeaac6c2736389",
+                "reference": "fd6d80eb2e0b0619d08e288e11eeaac6c2736389",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "5.1.*|5.2.*",
+                "illuminate/queue": "5.1.*|5.2.*",
+                "illuminate/support": "5.1.*|5.2.*",
+                "maknz/slack": "~1.7",
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NicolasMahe\\SlackOutput\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Sends a message to Slack when something goes wrong with your Laravel application.",
+            "keywords": [
+                "command",
+                "exception",
+                "jobs",
+                "laravel",
+                "slack"
+            ],
+            "time": "2016-03-09 09:22:49"
         },
         {
             "name": "nikic/php-parser",

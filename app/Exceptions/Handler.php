@@ -2,6 +2,7 @@
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use NicolasMahe\SlackOutput\Facade\SlackOutput;
 
 class Handler extends ExceptionHandler {
 
@@ -24,6 +25,10 @@ class Handler extends ExceptionHandler {
 	 */
 	public function report(Exception $e)
 	{
+        if ($this->shouldReport($e)) {
+            SlackOutput::exception($e);
+        }
+
 		return parent::report($e);
 	}
 

@@ -14,6 +14,9 @@ class EventServiceProvider extends ServiceProvider {
 		'event.name' => [
 			'EventListener',
 		],
+		'illuminate.log' => [
+			'App\Listeners\LogEventListener'
+		]
 	];
 
 	/**
