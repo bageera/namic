@@ -54,7 +54,7 @@ return [
 	|
 	*/
 
-	'from' => ['address' => 'noreply@namiccarolinas.com', 'name' => 'Namic Contact'],
+	'from' => ['address' => 'noreply@namiccarolinas.com', 'name' => 'Namic CarolinasContact'],
 
 	/*
 	|--------------------------------------------------------------------------
