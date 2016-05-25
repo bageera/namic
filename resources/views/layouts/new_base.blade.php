@@ -51,7 +51,7 @@
 <header class="header-image">
     <div class="headline">
         <div class="container">
-            <h1>Committee</h1>
+            <h1>Committee &</h1>
             <h2>Volunteer Opportunities</h2>
         </div>
     </div>

@@ -12,15 +12,21 @@
             <div class="block heading" data-type="heading" data-title="heading" data-id="2">
 
                     <div class='h3' style='text-align:left;'>
-                        2016 Get Active
+                        Proctors Needed
                     </div>
 
             </div>
 
             <div class="block imagetext" data-type="imagetext" data-title="imagetext" data-id="3">
-                <img src="{{asset('img/main/volunteer.jpg')}}" style='float:right;padding-left:20px;padding-right:0;'  class='image' />
+                <img src="{{asset('img/volunteer/flyer.jpg')}}" style='float:right;padding-left:20px;padding-right:0;'  class='image' />
                 <div style="">
-                    Starting in 2016 NAMIC will have unique volunteer opportunities available with the organization.
+                    <p>
+                        We have an opportunity for volunteering at Druid Hills Academy for End of Grade Testing!!! from the 6th of June till the 10th
+                    </p>
+                    <p>
+                        If this will be your first time as a proctor we will have training sessions <b>May 27<sup>th</sup></b> at <b>10:00 AM</b>, <b>Noon</b>, and <b>2:00 PM</b>. Training
+                        sessions will be approx 40 minutes
+                    </p>
 
 
 
