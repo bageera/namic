@@ -152,7 +152,8 @@ return [
          */
         'Collective\Html\HtmlServiceProvider',
         'Intervention\Image\ImageServiceProvider',
-        'GrahamCampbell\Flysystem\FlysystemServiceProvider'
+        'GrahamCampbell\Flysystem\FlysystemServiceProvider',
+		NicolasMahe\SlackOutput\ServiceProvider::class,
 
 	],
 
@@ -208,7 +209,8 @@ return [
         'Form'      => 'Collective\Html\FormFacade',
         'Html'      => 'Collective\Html\HtmlFacade',
         'Image' => 'Intervention\Image\Facades\Image',
-        'Flysystem' => 'GrahamCampbell\Flysystem\Facades\Flysystem'
+        'Flysystem' => 'GrahamCampbell\Flysystem\Facades\Flysystem',
+		'SlackOutput' => NicolasMahe\SlackOutput\Facade\SlackOutput::class,
 
 	],
 
