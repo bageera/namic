@@ -2,14 +2,14 @@
     You have received a new submission from the EPIC Submission form.
 </p>
 <p>
-    Award Categorty: {{ $award }}
+    Award Categorty: {{ $nominee_award }}
 </p>
 <ul>
     <li><strong>Nominee Name: {{ $nominee_name }}</strong></li>
     <li><strong>Nominee Email: {{ $nominee_email }}</strong></li>
     <li><strong>Nominee Phone: {{ $nominee_phone }}</strong></li>
     <li><strong>Nominee Address: {{ $nominee_address }}</strong></li>
-    <li><strong>Nomination Reason: {{ $reason_for_nomination }}</strong></li>
+    <li><strong>Nomination Reason: {{ $nominee_reason }}</strong></li>
 
 
 </ul>
