@@ -1,5 +1,6 @@
 <?php namespace App\Commands;
 
+use Mail;
 use App\Commands\Command;
 use Illuminate\Contracts\Bus\SelfHandling;
 
