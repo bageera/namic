@@ -22,7 +22,7 @@ class CreateNominationCommand extends Command implements SelfHandling
 
         Mail::queue('emails.epic.form', $this->data, function($message){
             $message->from('noreply@namiccarolinas.com', 'Contact Form');
-            $message->to('contact@namiccarolinas.com')->subject('New EPIC Submission Form Message');
+            $message->to('jon@nocturnalinc.com')->subject('New EPIC Submission Form Message');
 
         });
         //send thank you/confirmation message back to customer
