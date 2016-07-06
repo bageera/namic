@@ -19,6 +19,8 @@ class NominationController extends Controller
           new CreateNominationCommand($request->all())
         );
 
+        return view('main.success');
+
     }
 
 }
