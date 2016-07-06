@@ -134,7 +134,7 @@
                             <img src="{{asset('img/events/cloud_download_25.png')}}" style="margin-top:8px;margin-left:-15px;float:left"/>
                             <div style="float:left;margin-left:5px;margin-top:-2px;">
                                 <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">Submission Form</div>
-                                <a href="{{asset('files/epic/epicform.docx')}}">click to download</a>
+                                <a href="{{url('epic-nominations')}}">click to submit</a>
                             </div>
                             <div style="clear:both;"></div>
                         </div>
