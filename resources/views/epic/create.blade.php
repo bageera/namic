@@ -52,28 +52,28 @@
 
         <div class="form-group">
 
-            {!! Form::label('nominator_name', 'Nominator Name', array('class' => 'col-md-2 control-label')) !!}
+            {!! Form::label('nominator_name', "Submitter's Name", array('class' => 'col-md-2 control-label')) !!}
             {!! Form::text('nominator_name', null, array('class' => 'form-control','placeholder' => 'Enter Your Name')) !!}
 
         </div>
 
         <div class="form-group">
 
-            {!! Form::label('nominator_address', 'Nominator Address', array('class' => 'col-md-4 control-label')) !!}
+            {!! Form::label('nominator_address', "Submitter's Address", array('class' => 'col-md-4 control-label')) !!}
             {!! Form::text('nominator_address', null, array('class' => 'form-control','placeholder' => 'Address of Nominator')) !!}
 
         </div>
 
         <div class="form-group">
 
-            {!! Form::label('nominator_email', 'Nominator Email', array('class' => 'col-md-2 control-label')) !!}
+            {!! Form::label('nominator_email', "Submitter's Email", array('class' => 'col-md-2 control-label')) !!}
             {!! Form::text('nominator_email', null, array('class' => 'form-control','placeholder' => 'Email Address of Nominator')) !!}
 
         </div>
 
         <div class="form-group">
 
-            {!! Form::label('nominator_phone', 'Nominator Phone Number', array('class' => 'col-md-4 control-label')) !!}
+            {!! Form::label('nominator_phone', "Submitter's Phone Number", array('class' => 'col-md-4 control-label')) !!}
             {!! Form::text('nominator_phone', null, ['class' => 'form-control','placeholder' => 'Contact Number of Nominator']) !!}
 
         </div>

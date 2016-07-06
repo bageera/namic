@@ -1,6 +1,6 @@
 <p>
-    Thank you for reaching out to Namic Carolinas Chapter <strong>{{ $nominator_name }}</strong> with your EPIC Awards Submission
+    Thank you for your nomination and submission  <strong>{{ $nominator_name }}</strong> for the 3rd Annual NAMIC CAROLINAS EPIC Awards
 </p>
 <p>
-    Your vote has been received.
+    The information will be forwarded to the NAMIC-Carolinas board for consideration.
 </p>
