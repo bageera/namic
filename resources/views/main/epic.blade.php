@@ -183,6 +183,11 @@
 
                 </div>
 
+                <div class="block">
+                    <img src="{{asset('img/epic/2016epicawardsflyer.png')}}" style='float:left;'  class='img-thumbnail' />
+
+                </div>
+
 
 
             </div>
