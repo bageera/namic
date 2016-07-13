@@ -122,6 +122,15 @@
 
         </div>
 
+        <div class="row">
+            <!-- banner -->
+            <div class="col-md-16">
+
+                <img src="{{asset('img/epic/2016epicawardsflyer.png')}}" style='float:left;'  class='img-thumbnail' />
+            </div>
+
+        </div>
+
 
 
 
