@@ -10,7 +10,7 @@
             <div>
                 <p>
                     The NAMIC-Carolinas EPIC (Exceptional Person In Communications) Awards were created to recognize the outstanding
-                    achievements of leaders who advocate for Excellence and Dicersity within the communications industry.
+                    achievements of leaders who advocate for Excellence and Diversity within the communications industry.
                 </p>
             </div>
         <div class="row">
