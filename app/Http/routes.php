@@ -22,7 +22,7 @@ Route::group(array('before' => 'guest'), function () {
     Route::get('issue-1', ['as' => 'issue-1','uses' => 'MainController@issue1']);
     Route::get('membership', ['as' => 'membership','uses' => 'MainController@membership']);
     Route::get('scholarships', ['as' => 'scholarships','uses' => 'MainController@scholarships']);
-    Route::get('epic-nominations', ['as' => 'nomination', 'uses' => 'NominationController@create']);
+    Route::get('epic-nominations', ['as' => 'nomination', 'uses' => 'NominationController@closed']);
     Route::post('nomination', ['as' => 'nomination', 'uses' => 'NominationController@store']);
     Route::get('success', ['as' => 'success','uses' => 'MainController@success']);
     Route::get('volunteer', ['as' => 'success','uses' => 'MainController@volunteer']);
@@ -35,9 +35,13 @@ Route::group(array('before' => 'guest'), function () {
     ]);
 });
 
-
+Route::group(['middleware' => 'App\Http\Middleware\AdminOnly'], function()
+{
+    Route::get('/admin', 'Admin\AdminController@index');
+});
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
+
 ]);

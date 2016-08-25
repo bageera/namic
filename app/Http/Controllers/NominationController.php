@@ -23,4 +23,9 @@ class NominationController extends Controller
 
     }
 
+    public function closed()
+    {
+        return view('epic.closed');
+    }
+
 }
