@@ -126,7 +126,7 @@
             <!-- banner -->
             <div class="col-md-16">
 
-                <img src="{{asset('img/epic/2016epicawardsflyer.png')}}" style='float:left;'  class='img-thumbnail' />
+                <img src="{{asset('img/epic/septflyer2016.jpg')}}" style='float:left;'  class='img-thumbnail' />
             </div>
 
         </div>

@@ -184,7 +184,7 @@
                 </div>
 
                 <div class="block">
-                    <img src="{{asset('img/epic/2016epicawardsflyer.png')}}" style='float:left;'  class='img-thumbnail' />
+                    <a target="_blank" href="http://namic.site-ym.com/event/2016EPICAwards"><img src="{{asset('img/epic/septflyer2016.jpg')}}" style='float:left;'  class='img-thumbnail' /></a>
 
                 </div>
 
