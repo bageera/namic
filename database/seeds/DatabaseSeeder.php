@@ -5,6 +5,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class DatabaseSeeder extends Seeder {
 
+	protected $toTruncate = ['roles','users'];
 	/**
 	 * Run the database seeds.
 	 *
@@ -14,7 +15,16 @@ class DatabaseSeeder extends Seeder {
 	{
 		Model::unguard();
 
-		// $this->call('UserTableSeeder');
+		DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+		foreach ($this->toTruncate as $table)
+		{
+			DB::table($table)->truncate();
+		}
+
+		$this->call(RolesTableSeeder::class);
+		//$this->call(UsersTableSeeder::class);
+
+		DB::statement('SET FOREIGN_KEY_CHECKS=1;');
 	}
 
 }

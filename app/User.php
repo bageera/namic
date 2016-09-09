@@ -10,6 +10,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 
 	use Authenticatable, CanResetPassword;
 
+
 	/**
 	 * The database table used by the model.
 	 *
@@ -30,5 +31,51 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 	 * @var array
 	 */
 	protected $hidden = ['password', 'remember_token'];
+
+	/**
+	 * @param $password
+	 */
+	public function setPasswordAttribute($password)
+	{
+		$this->attributes['password'] = Hash::make($password);
+	}
+
+	public function hasRole($name)
+	{
+		foreach ($this->roles as $role) {
+			if ($role->name == $name) return true;
+
+		}
+
+		return false;
+	}
+
+	public function assignRole($role)
+	{
+		return $this->roles()->attach($role);
+	}
+
+	public function roles()
+	{
+		return $this->belongsToMany('App\Models\Role')->withTimestamps();
+	}
+
+	public function removeRole($role)
+	{
+		return $this->roles()->detach($role);
+	}
+
+	public function is($roleName)
+	{
+		foreach ($this->roles()->get() as $role)
+		{
+			if ($role->name == $roleName)
+			{
+				return true;
+			}
+		}
+
+		return false;
+	}
 
 }
