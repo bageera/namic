@@ -114,7 +114,7 @@
                             <div class="col-md-4">
                                 <h3>Commitee Chair(s)</h3>
                                 <ul class="list-group">
-                                    <li class="list-group-item">Kelle Evans </li>
+                                    <li class="list-group-item">Kellee Evans </li>
                                     <li class="list-group-item"> </li>
                                 </ul>
                             </div>
