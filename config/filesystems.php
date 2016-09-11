@@ -65,6 +65,13 @@ return [
 			'region'    => 'IAD',
 		],
 
+		'dropbox' => [
+
+			'driver'	=> 'dropbox',
+			'key'		=> env('DROPBOX_KEY'),
+            'secret'    => env('DROPBOX_SECRET'),
+		],
+
 	],
 
 ];

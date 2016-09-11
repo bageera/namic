@@ -4,6 +4,11 @@ use Intervention\Image\ImageManagerStatic as Image;
 use Intervention\Image\File;
 use App\Http\Requests\ContactRequest;
 use App\Commands\CreateContactCommand;
+use GrahamCampbell\Flysystem\Facades\Flysystem;
+
+use League\Flysystem\Filesystem;
+use Dropbox\Client;
+use League\Flysystem\Dropbox\DropboxAdapter as Adapter;
 
 class MainController extends Controller
 {
@@ -76,6 +81,13 @@ class MainController extends Controller
 
     public function photos()
     {
+
+        //Demo of pulling images from dropbox and having it integrated into the site
+        // creating the adapter
+        //$client = new Client(env('DROPBOX_TOKEN'), env('DROPBOX_APP'));
+        //$filesystem = new Filesystem(new Adapter($client, 'Head Shots/Web Prod'));
+
+        //dd($filesystem->listContents());
 
         $mixer = glob("img/events/bben_mixer/*.{jpg,JPG}", GLOB_BRACE);
         $dd2015 = glob("img/events/diversityday/*.{jpg,JPG}", GLOB_BRACE);
