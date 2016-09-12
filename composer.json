@@ -9,10 +9,11 @@
       "laravelcollective/html": "~5.0",
       "intervention/image": "^2.3",
       "intervention/imagecache": "2.3.*",
-      "graham-campbell/flysystem": "~3.1",
-      "league/flysystem-dropbox": "~1.0",
+      "graham-campbell/flysystem": "^3.5",
 	  "guzzlehttp/guzzle": "~5.3|~6.0",
-	  "nicolasmahe/laravel-slack-output": "^1.0"
+	  "nicolasmahe/laravel-slack-output": "^1.0",
+	  "league/flysystem-dropbox": "^1.0",
+		"barryvdh/laravel-debugbar": "^2.2"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
