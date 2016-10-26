@@ -9,7 +9,7 @@
 
         @include('layouts.partials.flash')
         @include('layouts.partials.error')
-        < class="row">
+        <div class="row">
             {!! Form::open(['method' => 'POST', 'route' => 'survey']) !!}
             <div class="col-md-4">
 
@@ -104,20 +104,10 @@
             </div>
 
 
-            <div class="form-group">
-
-
-
-                <div class="col-sm-8">
-                    {!! Form::submit(isset($buttonText) ? $buttonText : 'Submit Survey',array('class' => 'btn btn-sm btn-primary pull-right m-t-n-xs'))  !!}
-
-                </div>
-
             </div>
-
         </div>
 
-    </div>
+
 
 
 
