@@ -26,6 +26,8 @@ Route::group(array('before' => 'guest'), function () {
     Route::post('nomination', ['as' => 'nomination', 'uses' => 'NominationController@store']);
     Route::get('success', ['as' => 'success','uses' => 'MainController@success']);
     Route::get('volunteer', ['as' => 'success','uses' => 'MainController@volunteer']);
+    Route::get('ambassador', ['as' => 'brand-ambassador', 'uses' => 'VolunteerController@survey']);
+    Route::post('survey', ['as' => 'survey', 'uses' => 'VolunteerController@store']);
 
     Route::get('contact', ['as' => 'contact','uses' => 'MainController@contact']);
     Route::post('contact', ['as' => 'contact', 'uses' => 'MainController@postContact']);
