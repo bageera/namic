@@ -11,6 +11,26 @@
         @include('layouts.partials.error')
         <div class="row">
             {!! Form::open(['method' => 'POST', 'route' => 'survey']) !!}
+
+            <div class="col-md-4">
+
+                <p><b>Full Name</b></p>
+
+            </div>
+
+            <div class="col-md-8">
+                {!! Form::text('name', null, array('class' => 'form-control','placeholder' => 'Name')) !!}
+            </div>
+            <div class="col-md-4">
+
+                <p><b>Email Address</b></p>
+
+            </div>
+
+            <div class="col-md-8">
+                {!! Form::text('email', null, array('class' => 'form-control','placeholder' => 'Email Address')) !!}
+            </div>
+
             <div class="col-md-4">
 
                     <p><b>Why do you want to join NAMIC?</b></p>
@@ -18,7 +38,7 @@
             </div>
 
             <div class="col-md-8">
-                {!! Form::textarea('nominee_name', null, array('class' => 'form-control','placeholder' => 'Brief Description of why you want to join')) !!}
+                {!! Form::textarea('desc_join', null, array('class' => 'form-control','placeholder' => 'Brief Description of why you want to join')) !!}
             </div>
 
             <div class="col-md-4">
@@ -28,7 +48,7 @@
             </div>
 
             <div class="col-md-8">
-                {!! Form::textarea('nominee_name', null, array('class' => 'form-control','placeholder' => 'Brief Description of your attributes')) !!}
+                {!! Form::textarea('get_involved', null, array('class' => 'form-control','placeholder' => 'Brief Description of your attributes')) !!}
             </div>
 
             <div class="col-md-4">
@@ -38,9 +58,9 @@
             </div>
 
             <div class="col-md-8">
-                {!! Form::select('nominee_award', array('six_man' => 'Brand Ambassador', 'mentorship' => 'Membership Committee',
-                'outstanding_tech' => 'Programming Committee', 'revenue' => 'Revenue & Sponsorship Committee',
-                    'career' => 'Communication Committee', 'scholarship' => 'Scholarship Committee')) !!}
+                {!! Form::select('are_you_involved', array('brand_ambassador' => 'Brand Ambassador', 'mentorship' => 'Membership Committee',
+                'programming' => 'Programming Committee', 'revenue' => 'Revenue & Sponsorship Committee',
+                    'communication' => 'Communication Committee', 'scholarship' => 'Scholarship Committee')) !!}
             </div>
             <div class="clear"></div>
             <div class="col-md-4">
@@ -50,7 +70,7 @@
             </div>
 
             <div class="col-md-8">
-                {!! Form::textarea('nominee_name', null, array('class' => 'form-control','placeholder' => 'Brief Description of your attributes')) !!}
+                {!! Form::textarea('desc_involved', null, array('class' => 'form-control','placeholder' => 'Brief Description of your attributes')) !!}
             </div>
 
             <div class="col-md-4">
@@ -60,7 +80,7 @@
             </div>
 
             <div class="col-md-8">
-                {!! Form::textarea('nominee_name', null, array('class' => 'form-control','placeholder' => 'Brief Description of your attributes')) !!}
+                {!! Form::textarea('desc_time_available', null, array('class' => 'form-control','placeholder' => 'Brief Description of your attributes')) !!}
             </div>
 
             <div class="col-md-4">
@@ -70,7 +90,7 @@
             </div>
 
             <div class="col-md-8">
-                {!! Form::textarea('nominee_name', null, array('class' => 'form-control','placeholder' => 'Brief Description of your attributes')) !!}
+                {!! Form::textarea('desc_gain', null, array('class' => 'form-control','placeholder' => 'Brief Description of your attributes')) !!}
             </div>
 
             <div class="col-md-4">
@@ -80,7 +100,7 @@
             </div>
 
             <div class="col-md-8">
-                {!! Form::textarea('nominee_name', null, array('class' => 'form-control','placeholder' => 'Brief Description of your attributes')) !!}
+                {!! Form::textarea('leadership_support', null, array('class' => 'form-control','placeholder' => 'Brief Description of your attributes')) !!}
             </div>
 
             <div class="col-md-4">
@@ -90,7 +110,7 @@
             </div>
 
             <div class="col-md-8">
-                {!! Form::textarea('nominee_name', null, array('class' => 'form-control','placeholder' => 'Brief Description of your attributes')) !!}
+                {!! Form::textarea('social_media', null, array('class' => 'form-control','placeholder' => 'Facebook, Twitter, Linkedin')) !!}
             </div>
 
             <div class="col-md-4">
@@ -100,7 +120,12 @@
             </div>
 
             <div class="col-md-8">
-                {!! Form::textarea('nominee_name', null, array('class' => 'form-control','placeholder' => 'Brief Description of your attributes')) !!}
+                {!! Form::textarea('open_feedback', null, array('class' => 'form-control','placeholder' => 'Brief Description of your attributes')) !!}
+            </div>
+
+            <div class="col-sm-8">
+                {!! Form::submit(isset($buttonText) ? $buttonText : 'Submit Survey',array('class' => 'btn btn-sm btn-primary pull-right m-t-n-xs'))  !!}
+
             </div>
 
 

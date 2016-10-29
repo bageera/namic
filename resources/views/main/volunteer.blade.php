@@ -11,9 +11,6 @@
             <div id="pageTitle" class="page-title">Volunteer with NAMIC</div><br class="page-title" /></div>
             <div class="block heading" data-type="heading" data-title="heading" data-id="2">
 
-                    <div class='h3' style='text-align:left;'>
-                        Stay Tuned
-                    </div>
 
             </div>
 

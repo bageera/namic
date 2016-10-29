@@ -1,6 +1,8 @@
 <?php
 namespace App\Http\Controllers;
 
+use App\Http\Requests\AmbassadorRequest;
+use App\Commands\CreateAmbassadorSurveyCommand;
 
 class VolunteerController extends Controller
 {
@@ -11,9 +13,13 @@ class VolunteerController extends Controller
         return view('volunteer.index');
     }
 
-    public function store()
+    public function store(AmbassadorRequest $request)
     {
-        return view('main.index');
+        $this->dispatch(
+            new CreateAmbassadorSurveyCommand($request->all())
+        );
+
+        return view('main.success');
     }
 
 }
