@@ -39,7 +39,7 @@ class AmbassadorRequest extends Request
 
         return [
             'name'  => 'required',
-            'email' =>  'required:email',
+            'email' =>  'required|email',
             'desc_join' => 'required',
             'get_involved' => 'required',
             'are_you_involved' => 'required',
