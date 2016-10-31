@@ -96,6 +96,18 @@
                         Become a Member
 
                     </h3>
+
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Annoucements </div>
+                        <div class="panel-body">
+                            <p>
+                                <a href="{{ URL::to('volunteer') }}">New Volunteer Opportunities</a>
+                            </p>
+                            <p>Head to our volunteer page to learn more</p>
+
+                        </div>
+
+                    </div>
                 </div>
 
 
@@ -123,11 +135,7 @@
         </div>
 
         <div class="row">
-            <!-- banner -->
-            <div class="col-md-16">
 
-                <img src="{{asset('img/epic/septflyer2016.jpg')}}" style='float:left;'  class='img-thumbnail' />
-            </div>
 
         </div>
 
