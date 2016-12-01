@@ -10,7 +10,7 @@
         <div class="row">
 
             <div class="col-md-12">
-                <div id="pageTitle" class="page-title">Volunteer with NAMIC</div><br class="page-title" />
+                <div id="pageTitle" class="page-title">We are looking for you!</div><br class="page-title" />
 
             </div>
 
@@ -18,6 +18,21 @@
 
                 <div class="block imagetext" data-type="imagetext" data-title="imagetext" data-id="3">
                     Interesting in becoming a Brand Ambassador?
+
+                </div>
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading">What is a Brand Ambassador? </div>
+                    <div class="panel-body">
+                        <p>
+                            NAMIC Carolinas creates experiences that foster inclusion, equity and career advancement in the communications industry.
+                            NAMIC Carolinas is creating the opportunity for Brand Ambassadors. TheBrand Ambassadors have the responsibilities of being the face of NAMIC,
+                            advocating on behalf of NAMICand supporting the NAMIC vision.
+                            The NAMIC Brand Ambassador should be mission focused to extendand amplify the brand’s reach.
+                        </p>
+
+
+                    </div>
 
                 </div>
 
