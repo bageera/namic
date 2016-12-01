@@ -22,7 +22,7 @@
                     <div class="panel-body">
                         <p>
                             NAMIC Carolinas creates experiences that foster inclusion, equity and career advancement in the communications industry.
-                            NAMIC Carolinas is creating the opportunity for Brand Ambassadors. TheBrand Ambassadors have the responsibilities of being the face of NAMIC,
+                            NAMIC Carolinas is creating the opportunity for Brand Ambassadors. The Brand Ambassadors have the responsibilities of being the face of NAMIC,
                             advocating on behalf of NAMICand supporting the NAMIC vision.
                             The NAMIC Brand Ambassador should be mission focused to extendand amplify the brand’s reach.
                         </p>
@@ -57,6 +57,35 @@
 
 
             </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <button type="button" class="btn btn-default">{{url('ambassador')}}Click Here to Apply</button>
+            </div>
+
+            <div class="col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Benifits</div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>Access to executive leadership</li>
+                            <li>Ability to network with various organizations, vendors, etc</li>
+                            <li>Gain leadership skills</li>
+                            <li>Potential career advancement</li>
+                            <li>Informal mentoring opportunities</li>
+                            <li>Promotes equity</li>
+                            <li>New found business/personal relationships</li>
+                            <li>Ability to grow and promote career progression via social media</li>
+                            <li>Exclusive Swag gifts</li>
+                        </ul>
+
+
+                    </div>
+
+                </div>
+            </div>
+
 
         </div>
 
