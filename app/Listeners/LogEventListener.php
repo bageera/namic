@@ -25,9 +25,9 @@ public function __construct()
 */
 public function handle($event)
 {
-    if ($event->type == 'error') {
-    $this->notifyViaSlack($event->message, $event->context);
-        }
+    //if ($event->type == 'error') {
+    //$this->notifyViaSlack($event->message, $event->context);
+    //    }
 }
 
 /**

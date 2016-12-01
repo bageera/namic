@@ -10,7 +10,8 @@
         <div class="row">
 
             <div class="col-md-12">
-                <div id="pageTitle" class="page-title">We are looking for you!</div><br class="page-title" />
+                <img src="{{asset('files/volunteer/brand_logo.webp')}}" />
+
 
             </div>
 
@@ -34,7 +35,7 @@
 
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="panel panel-primary">
                     <div class="panel-heading">Requirements</div>
                     <div class="panel-body">
@@ -61,10 +62,22 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <button type="button" class="btn btn-default">{{url('ambassador')}}Click Here to Apply</button>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Have we piqued your interest?</div>
+                    <div class="panel-body">
+                        <p>
+                            Click the follow link to apply
+
+                            <button type="button" class="btn btn-primary"><a href="{{ URL::to('ambassador') }}">Apply Now</a></button>
+                        </p>
+
+
+                    </div>
+
+                </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="panel panel-primary">
                     <div class="panel-heading">Benifits</div>
                     <div class="panel-body">
