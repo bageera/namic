@@ -14,12 +14,8 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-6">
 
-                <div class="block imagetext" data-type="imagetext" data-title="imagetext" data-id="3">
-                    Interesting in becoming a Brand Ambassador?
-
-                </div>
 
                 <div class="panel panel-primary">
                     <div class="panel-heading">What is a Brand Ambassador? </div>
@@ -38,12 +34,25 @@
 
             </div>
 
-            <div class="col-md-8">
-                <p>Click the following link to view the
-                    <a target="_blank" href="{{asset('files/volunteer/brandambassador_job_survey.pdf')}}">Job Summary</a><img src="{{asset('img/events/pdf_file_30.png')}}" />
-                    and take the survey below.</p>
+            <div class="col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Requirements</div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>Must be a NAMIC member</li>
+                            <li>Responsible for representing the image of the organization.</li>
+                            <li>Ability to interact/communicate with others in a professional way.</li>
+                            <li>Accountability: The ability to work and deliver necessary organization needs.</li>
+                            <li>Ability to build relationships and maintain effective working relationships with all levels or leadership.</li>
+                            <li>Communication: Must provide constant communication with organization Board Members.</li>
+                            <li>Ability to gather feedback and provide innovative insight.</li>
+                            <li>Ability to learn and manage social media sites on behalf of NAMIC-Carolinas</li>
+                        </ul>
 
-                <p><a href="{{url('/ambassador')}}">Survey</a></p>
+
+                    </div>
+
+                </div>
 
 
 
