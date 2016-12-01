@@ -22,7 +22,7 @@
             </li>
             <li style="z-index:74;" class="last" id="nav_contact"  ><a class="@if (Request::path() === 'contact') selected @endif" href="{{ URL::to('contact') }}" target="_self"><span></span>Contact US</a>
                     </li>
-            <li style="z-index:74;" class="last" id="nav_volunteers"  ><a class="@if (Request::path() === 'volunteer') selected @endif" href="{{ URL::to('volunteer') }}" target="_self"><span></span>Volunteers</a>
+            <li style="z-index:74;" class="last" id="nav_volunteers"  ><a class="@if (Request::path() === 'volunteer') selected @endif" href="{{ URL::to('volunteer') }}" target="_self"><span></span>Brand Ambassadors</a>
             </li>
 
         </ul>
