@@ -11,6 +11,26 @@
                 <div class="lightbox-caption"><p>Your caption here</p></div>
             </div>
         </div>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">EPIC Awards 2016 </div>
+            <div class="panel-body">
+
+                @foreach($epic2016 as $file)
+
+                    <div class="col-lg-2 col-sm-3 col-xs-4">
+                        <a href="{{$file}}" data-toggle="lightbox" data-gallery="lunchnlearn2014">
+
+                            <img src="{{dirname($file)}}/thumb/{{basename($file)}}" class="thumbnail img-responsive">
+                        </a>
+                    </div>
+
+                @endforeach
+
+            </div>
+        </div>
+
+
         <div class="panel panel-primary">
             <div class="panel-heading">Exceptional Committee Member and Rookie of the Year Award</div>
             <div class="panel-body">
@@ -47,77 +67,6 @@
             </div>
         </div>
 
-        <div class="panel panel-primary">
-            <div class="panel-heading">NAMIC / WICT Tech It Out & Christmas Party 2015 </div>
-            <div class="panel-body">
-
-                @foreach($wict2015 as $file)
-
-                    <div class="col-lg-2 col-sm-3 col-xs-4">
-                        <a href="{{$file}}" data-toggle="lightbox" data-gallery="lunchnlearn2014">
-
-                            <img src="{{dirname($file)}}/thumb/{{basename($file)}}" class="thumbnail img-responsive">
-                        </a>
-                    </div>
-
-                @endforeach
-
-            </div>
-        </div>
-
-        <div class="panel panel-primary">
-            <div class="panel-heading">EPIC Awards 2015 </div>
-            <div class="panel-body">
-
-                @foreach($epic2015 as $file)
-
-                    <div class="col-lg-2 col-sm-3 col-xs-4">
-                        <a href="{{$file}}" data-toggle="lightbox" data-gallery="lunchnlearn2014">
-
-                            <img src="{{dirname($file)}}/thumb/{{basename($file)}}" class="thumbnail img-responsive">
-                        </a>
-                    </div>
-
-                @endforeach
-
-            </div>
-        </div>
-
-        <div class="panel panel-primary">
-            <div class="panel-heading">Namic Mixer with BBEN 2015 </div>
-            <div class="panel-body">
-
-                @foreach($mixer as $file)
-
-                    <div class="col-lg-2 col-sm-3 col-xs-4">
-                        <a href="{{$file}}" data-toggle="lightbox" data-gallery="lunchnlearn2014">
-
-                            <img src="{{dirname($file)}}/thumb/{{basename($file)}}" class="thumbnail img-responsive">
-                        </a>
-                    </div>
-
-                @endforeach
-
-            </div>
-        </div>
-
-        <div class="panel panel-primary">
-            <div class="panel-heading">Diversity Day 2015 </div>
-            <div class="panel-body">
-
-                @foreach($dd2015 as $file)
-
-                    <div class="col-lg-2 col-sm-3 col-xs-4">
-                        <a href="{{$file}}" data-toggle="lightbox" data-gallery="lunchnlearn2014">
-
-                            <img src="{{dirname($file)}}/thumb/{{basename($file)}}" class="thumbnail img-responsive">
-                        </a>
-                    </div>
-
-                @endforeach
-
-            </div>
-        </div>
 
     </div>
 
