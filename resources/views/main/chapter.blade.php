@@ -127,7 +127,7 @@
                             <div style="">Advisor<br>
                                 Darrel Hegar<br>
                                 RVP, Operations<br>
-                                Time Warner Cable
+                                Charter
 
                             </div>
                         </div>
@@ -157,7 +157,7 @@
                             <div style="">Advisor<br>
                                 Charlene Keys<br>
                                 AVP, Field Operations<br>
-                                Time Warner Cable
+                                Charter
 
                             </div>
                         </div>
@@ -193,7 +193,7 @@
                             <div style="">Advisor<br>
                                 Charlon McIntosh<br>
                                 RVP, BC Customer Care<br>
-                                Time Warner Cable
+                                Charter
                             </div>
                         </div>
 
