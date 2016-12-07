@@ -148,7 +148,8 @@
                         <ul class="list-group">
                             <li class="list-group-item">
 
-                                <a target="_blank" href="{{URL::to("https://www.dropbox.com/s/zf6g2i6i79tr2wm/NAMIC%20EPIC%20Awards%202015.wmv?dl=0")}}">Video Link</a>
+                                <a target="_blank" href="{{URL::to("https://www.dropbox.com/s/zf6g2i6i79tr2wm/NAMIC%20EPIC%20Awards%202015.wmv?dl=0")}}">
+                                    <button type="button" class="btn btn-primary">Click to View</button></a>
                             </li>
 
                         </ul>
