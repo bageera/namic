@@ -184,7 +184,7 @@
                 </div>
 
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Auction Item Winners </div>
+                    <div class="panel-heading">Auction Item Winners</div>
                     <div class="panel-body">
                         <ul class="list-group">
                             <li class="list-group-item">
