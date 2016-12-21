@@ -188,20 +188,28 @@
                     <div class="panel-body">
                         <ul class="list-group">
                             <li class="list-group-item">
-                                <span class="badge">Apple Watch</span>
-                                Mechel Morrow
+                                <span class="badge">Shakina Johnson</span>
+                                Embassy Suite One Night Stay
                             </li>
                             <li class="list-group-item">
-                                <span class="badge">IPAD</span>
-                                Jim Dessi
+                                <span class="badge">Karen Reid</span>
+                                Autographed Football of LB Thomas Davis
                             </li>
                             <li class="list-group-item">
-                                <span class="badge">Panthers Football</span>
-                                Garth David
+                                <span class="badge">Brenda Curry</span>
+                                Carolina Panther Package
                             </li>
                             <li class="list-group-item">
-                                <span class="badge">Roku</span>
-                                Edith Faial
+                                <span class="badge">Stacey Woods</span>
+                                African Heritage Artwork
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">Ninnet Bowman</span>
+                                Basketball Autographed by NBA Star Stephen Curry
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">Jim Dessi</span>
+                                Charlotte Bobcats/Hornets Package Memorabilia Jerseys
                             </li>
                         </ul>
 
