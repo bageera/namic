@@ -26,6 +26,12 @@
                         </p>
 
                     </div>
+                    <div class="panel-footer">2016 Winners
+                        <ul>
+                            <li><b>Omar Fergusonl</b> - Supervisor, Tech Ops, Charter Communications</li>
+
+                        </ul>
+                    </div>
                     <div class="panel-footer">2015 Winners
                         <ul>
                             <li><b>Jamie Bell</b> - Supervisor, Order Management, Commercial Services, TWC</li>
@@ -48,6 +54,12 @@
                             empower and advocate for others through both formal and informal mentoring.
                         </p>
 
+                    </div>
+                    <div class="panel-footer">2016 Winners
+                        <ul>
+                            <li><b>Maree Gbolewweefaa</b> - Director, Project Management & Communications, Charter Communications</li>
+
+                        </ul>
                     </div>
                     <div class="panel-footer">2015 Winner
                         <ul>
@@ -73,6 +85,13 @@
                         </p>
 
                     </div>
+                    <div class="panel-footer">2016 Winners
+                        <ul>
+                            <li><b>Stacey Woods</b> - Vice President, Human Resources, Charter Communications</li>
+
+                        </ul>
+                    </div>
+
                     <div class="panel-footer">2015 Winner
                         <ul>
                             <li><b>James Manchester</b> - SVP, Video Ecosystem/App Ops</li>
@@ -97,6 +116,12 @@
                             advance their careers.
                         </p>
 
+                    </div>
+                    <div class="panel-footer">2016 Winners
+                        <ul>
+                            <li><b>Darrel Hegar</b> - RVP, Operations, Charter Communications</li>
+
+                        </ul>
                     </div>
                     <div class="panel-footer">2015 Winner
                         <ul>
