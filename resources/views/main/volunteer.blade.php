@@ -24,7 +24,9 @@
                         <p>
                             NAMIC Carolinas creates experiences that foster inclusion, equity and career advancement in the communications industry.
                             NAMIC Carolinas is creating the opportunity for Brand Ambassadors. The Brand Ambassadors have the responsibilities of being the face of NAMIC,
-                            advocating on behalf of NAMICand supporting the NAMIC vision.
+                            advocating on behalf of NAMIC and supporting the NAMIC vision.
+                            </p>
+                        <p>
                             The NAMIC Brand Ambassador should be mission focused to extendand amplify the brand’s reach.
                         </p>
 
