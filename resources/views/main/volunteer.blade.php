@@ -68,9 +68,9 @@
                     <div class="panel-heading">Have we piqued your interest?</div>
                     <div class="panel-body">
                         <p>
-                            Click the follow link to apply
+                            Click the follow link to
 
-                            <button type="button" class="btn btn-primary"><a href="{{ URL::to('ambassador') }}">Apply Now</a></button>
+                            <a class="btn btn-primary" href="{{ URL::to('ambassador') }}">Apply Now</a>
                         </p>
 
 
