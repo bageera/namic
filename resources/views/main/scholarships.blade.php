@@ -130,8 +130,8 @@
                                 <img src="{{asset('img/events/pdf_file_30.png')}}" style="float:left;"/>
                                 <img src="{{asset('img/events/cloud_download_25.png')}}" style="margin-top:8px;margin-left:-15px;float:left"/>
                                 <div style="float:left;margin-left:5px;margin-top:-2px;">
-                                    <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">2015 NAMIC SCHOLARSHIP APPLICATION</div>
-                                    <a target="_blank" href="{{asset('files/scholarships/2015_NAMIC_SCHOLARSHIP_APPLICATION.pdf')}}">click to download</a>
+                                    <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">2017 NAMIC SCHOLARSHIP APPLICATION</div>
+                                    <a target="_blank" href="{{asset('files/scholarships/2017_NAMIC_SCHOLARSHIP_APPLICATION.pdf')}}">click to download</a>
                                 </div>
                                 <div style="clear:both;"></div>
                             </div>
