@@ -135,6 +135,16 @@
                                 </div>
                                 <div style="clear:both;"></div>
                             </div>
+
+                            <div class="download-button rollover" align="left" style="padding:7px;display:inline-block;" data-fileID="92510" data-url="{{asset('files/scholarships/2014_NAMIC_SCHOLARSHIP_APPLICATION.pdf')}}" data-type="pdf" >
+
+                                <img src="{{asset('img/events/cloud_download_25.png')}}" style="margin-top:8px;margin-left:-15px;float:left"/>
+                                <div style="float:left;margin-left:5px;margin-top:-2px;">
+                                    <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">2017 NAMIC SCHOLARSHIP APPLICATION</div>
+                                    <a target="_blank" href="{{asset('files/scholarships/2017_NAMIC_SCHOLARSHIP_APPLICATION.docx')}}">click to download</a>
+                                </div>
+                                <div style="clear:both;"></div>
+                            </div>
                         </div>
                     </div>
                     <div class="block heading" data-type="heading" data-title="heading" data-id="5">
