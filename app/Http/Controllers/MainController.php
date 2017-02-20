@@ -9,6 +9,9 @@ use GrahamCampbell\Flysystem\Facades\Flysystem;
 use League\Flysystem\Filesystem;
 use Dropbox\Client;
 use League\Flysystem\Dropbox\DropboxAdapter as Adapter;
+use League\Flysystem\Adapter\Local;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
 
 class MainController extends Controller
 {
@@ -84,16 +87,20 @@ class MainController extends Controller
 
         //Demo of pulling images from dropbox and having it integrated into the site
         // creating the adapter
-        //$client = new Client(env('DROPBOX_TOKEN'), env('DROPBOX_APP'));
-        //$filesystem = new Filesystem(new Adapter($client, 'Head Shots/Web Prod'));
+        $client = new Client(env('DROPBOX_TOKEN'), env('DROPBOX_APP'));
+        $filesystem = new Filesystem(new Adapter($client, 'Head Shots/Web Prod'));
 
-        //dd($filesystem->listContents());
+
+        $contents =  $filesystem->listContents(null,true);
+        $this->processDropbox($contents);
+        //dd($contents);
+
+
 
         $mixer = glob("img/events/bben_mixer/*.{jpg,JPG}", GLOB_BRACE);
-        $chapter2015 = glob("img/events/chapter2015/*.{jpg,JPG}", GLOB_BRACE);
         $rookie = glob("img/events/rookie/*.{jpg,JPG}", GLOB_BRACE);
         $epic2016 = glob("img/events/epic2016/*.{jpg,JPG}", GLOB_BRACE);
-
+        $wict2017 = glob("img/events/wict2017/*.{jpg,JPG}", GLOB_BRACE);
         foreach($mixer as $file)
         {
 
@@ -123,7 +130,7 @@ class MainController extends Controller
 
 
 
-        foreach($chapter2015 as $file)
+        foreach($wict2017 as $file)
         {
 
 
@@ -151,13 +158,60 @@ class MainController extends Controller
 
 
 
-        return view('main.photos', compact('mixer','epic2016','chapter2015','rookie'));
+        return view('main.photos', compact('mixer','epic2016','rookie','wict2017','contents'));
     }
 
     /**
      *
-     * return from paypal donation
+     * process links from dropbox
+     * @param  Array
+     * @return void
      */
+
+    public function processDropbox($contents)
+    {
+        $client = new Client(env('DROPBOX_TOKEN'), env('DROPBOX_APP'));
+        $dbfs = new Filesystem(new Adapter($client, 'Head Shots/Web Prod'));
+
+
+        $basepath = public_path('img/events/');
+        //dd(Storage::disk('local'));
+        $adapter = new Local(public_path(), 0);
+        $filesystem = new Filesystem($adapter);
+        // loop through content and verify or generate thumb image
+        foreach($contents as $element)
+        {
+            //if element is a directory verify path exists or create it
+            if ($element["type"] == "dir")
+            {
+
+                //if diretory doesn't exists create directory
+                if (! $filesystem->has($basepath . Str::lower($element["path"])))
+                {
+                    $dpath = $basepath . Str::lower($element["path"]);
+                    //dd($dpath);
+                    $filesystem->createDir($dpath);
+                    $filesystem->createDir($dpath . '/thumb');
+                }
+
+            }
+
+            if ($element["type"] == "file")
+            {
+
+                if (! $filesystem->has($basepath . Str::lower($element["dirname"]) . '/thumb/' . Str::lower($element["basename"])))
+                {
+                    //dd("create a thumb");
+
+
+                    //$img = Image::make($dbfs->get($element["path"]))->resize(200, 200);
+                    //$img->save($basepath . Str::lower($element["dirname"]) . '/thumb/' . Str::lower($element["basename"]), $img->stream());
+                }
+
+            }
+
+        }
+    }
 
 
 
