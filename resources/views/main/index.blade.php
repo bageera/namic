@@ -62,23 +62,7 @@
                     </div>
                 </div>
 
-                <div class="block heading" data-type="heading" data-title="heading" data-id="12">
-                    <h3>
-                        <div class='h3' style='text-align:left;'>
-                            Mentor Minute
 
-                        </div>
-                    </h3>
-                </div>
-
-                <div class="block imagetext" data-type="imagetext" data-title="imagetext" data-id="3">
-                    <div class="media">
-                        <img src={{asset('img/main/mentor.jpg')}}>
-
-
-
-                    </div>
-                </div>
 
             </div>
 
