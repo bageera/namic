@@ -16,6 +16,8 @@
             </li>
             <li style="z-index:76;" id="nav_membership"  ><a class="@if (Request::path() === 'membership') selected @endif" href="{{ URL::to('membership') }}" target="_self"><span></span>Membership</a>
             </li>
+            <li style="z-index:76;" id="nav_mentor"  ><a class="@if (Request::path() === 'mentor') selected @endif" href="{{ URL::to('mentor') }}" target="_self"><span></span>Mentor Minute</a>
+            </li>
             <li style="z-index:75;" id="nav_scholarships"  ><a class="@if (Request::path() === 'scholarships') selected @endif" href="{{ URL::to('scholarships') }}" target="_self"><span></span>Scholarships</a>
             </li>
             <li style="z-index:74;" id="nav_event-photos"  ><a class="@if (Request::path() === 'photos') selected @endif" href="{{ URL::to('event-photos') }}" target="_self"><span></span>Event Photos</a>

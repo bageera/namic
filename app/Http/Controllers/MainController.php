@@ -66,6 +66,11 @@ class MainController extends Controller
         return view('main.membership');
     }
 
+    public function mentor()
+    {
+        return view('main.mentor');
+    }
+
     public function scholarships()
     {
         return view('main.scholarships');
