@@ -65,7 +65,7 @@
 
                 <div class="block imagetext" data-type="imagetext" data-title="imagetext" data-id="3">
                     <div class="media">
-                        <img src={{asset('img/main/mentor.jpg')}}>
+                        <img src={{asset('img/main/volunteer_flyer.jpg')}}>
 
 
 
