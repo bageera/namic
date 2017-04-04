@@ -4,13 +4,17 @@
 @endsection
 @section(('content'))
     <div id="container">
-
         <div class="panel panel-primary">
             <div class="panel-heading">Mentor Minute</div>
             <div class="panel-body">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" width="640" height="480" src="https://youtu.be/pQc3oh1Y6rY" frameborder="0" allowfullscreen></iframe>
-                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <span ><a target="_blank" href="{{URL::to("https://youtu.be/pQc3oh1Y6rY")}}">
+                                <button type="button" class="btn btn-primary btn-sm">Click to View</button></a></span>
+                        <div class="pull-right">Jamie Bell - "The Power of Yes"</div>
+                    </li>
+
+                </ul>
 
             </div>
 

@@ -21,7 +21,7 @@ Route::group(array('before' => 'guest'), function () {
     Route::get('unplugged', ['as' => 'unplugged','uses' => 'MainController@unplugged']);
     Route::get('issue-1', ['as' => 'issue-1','uses' => 'MainController@issue1']);
     Route::get('membership', ['as' => 'membership','uses' => 'MainController@membership']);
-    Route::get('mentor', ['as' => 'mentor','uses' => 'MainController@mentor']);
+    Route::get('mentor', ['as' => 'mentor','uses' => 'MainController@mentor'])->middleware(['youtube']);
     Route::get('scholarships', ['as' => 'scholarships','uses' => 'MainController@scholarships']);
     Route::get('epic-nominations', ['as' => 'nomination', 'uses' => 'NominationController@closed']);
     Route::post('nomination', ['as' => 'nomination', 'uses' => 'NominationController@store']);
