@@ -9,11 +9,11 @@
             <div class="panel-body">
 
                         <div class="col-md-8">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/phyo88wexCo?ecver=1" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/zKo6gJnf-6E" frameborder="0" allowfullscreen></iframe>
                         </div>
                         <div class="col-md-4">
-                            <p>Mike Fox - "Build your Brand"</p>
-                            <p>April 2017</p>
+                            <p>Charlon McIntosh - "Don't Major in The Minor"</p>
+                            <p>May 2017</p>
                         </div>
 
 
