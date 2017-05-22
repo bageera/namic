@@ -1,6 +1,6 @@
 @extends('layouts.base')
 @section('title')
-    NAMIC-Carolinas - Unplugged
+    NAMIC-Carolinas - Mentor Minute
 @endsection
 @section(('content'))
     <div id="container">
