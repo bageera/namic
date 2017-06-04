@@ -65,7 +65,7 @@
 
                 <div class="block imagetext" data-type="imagetext" data-title="imagetext" data-id="3">
                     <div class="media">
-                        <img src={{asset('img/main/maymentor.jpg')}}>
+
 
 
 
@@ -111,9 +111,10 @@
                         <div class="panel-heading">Annoucements </div>
                         <div class="panel-body">
                             <p>
-                                <a href="{{ URL::to('volunteer') }}">New Volunteer Opportunities</a>
+                                <b>New</b> Mentor Minute
+                                <a href="{{ URL::to('mentor') }}">Click Here</a>
                             </p>
-                            <p>Head to our volunteer page to learn more</p>
+
 
                         </div>
 

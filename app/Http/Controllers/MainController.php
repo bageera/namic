@@ -73,6 +73,11 @@ class MainController extends Controller
         return view('main.mentor');
     }
 
+    public function pastMentor()
+    {
+        return view('mentors.past');
+    }
+
     public function spotlight()
     {
 

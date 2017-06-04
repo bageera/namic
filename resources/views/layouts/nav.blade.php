@@ -18,7 +18,15 @@
             <li style="z-index:76;" id="nav_membership"  ><a class="@if (Request::path() === 'membership') selected @endif" href="{{ URL::to('membership') }}" target="_self"><span></span>Membership</a>
             </li>
             <li style="z-index:74;" id="nav_spotlight"  ><a class="@if (Request::path() === 'spotlight') selected @endif" href="{{ URL::to('spotlight') }}" target="_self"><span></span>LeaderShip Spot Light</a></li>
-            <li style="z-index:76;" id="nav_mentor"  ><a class="@if (Request::path() === 'mentor') selected @endif" href="{{ URL::to('mentor') }}" target="_self"><span></span>Mentor Minute</a>
+            <li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mentor Minute</a>
+
+                <ul class="dropdown-menu">
+                    <li><a href="{{ URL::to('mentor') }}">Mentor of the Month</a></li>
+                    <li class="divider"></li>
+                    <li><a href="{{ URL::to('mentor/past') }}">Past Mentors</a></li>
+
+                </ul>
             </li>
             <li style="z-index:75;" id="nav_scholarships"  ><a class="@if (Request::path() === 'scholarships') selected @endif" href="{{ URL::to('scholarships') }}" target="_self"><span></span>Scholarships</a>
             </li>
