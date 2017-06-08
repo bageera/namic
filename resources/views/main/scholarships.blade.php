@@ -250,7 +250,7 @@
                                 </li>
                                 <li>
                                     Complete application must be received electronically by
-                                    <b><i>May 16, {{date('Y')}}</i></b>
+                                    <b><i>June 30, {{date('Y')}}</i></b>
                                 </li>
                             </ul>
                         </div>
