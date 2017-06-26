@@ -111,7 +111,7 @@
                                     <img src="{{asset('img/events/pdf_file_30.png')}}" style="float:left;"/>
                                     <img src="{{asset('img/events/cloud_download_25.png')}}" style="margin-top:8px;margin-left:-15px;float:left"/>
                                     <div style="float:left;margin-left:5px;margin-top:-2px;">
-                                        <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">2016 NAMIC Program Calendar - Updated</div>
+                                        <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">2017 NAMIC Program Calendar - Updated</div>
                                         <a target="_blank" href="{{asset('files/events/2017NAMIC-CarolinasCalendar.pdf')}}">click to download</a>
                                     </div>
                                     <div style="clear:both;"></div>
