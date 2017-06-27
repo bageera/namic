@@ -86,7 +86,7 @@
                                 <h3>Commitee Chair(s)</h3>
                                 <ul class="list-group">
                                     <li class="list-group-item">Tanara Tipton </li>
-                                    <li class="list-group-item"> </li>
+                                    <li class="list-group-item">Gail Baltimore  </li>
                                 </ul>
                             </div>
                         </div>
