@@ -114,6 +114,13 @@
                                 <b>New</b> Mentor Minute
                                 <a href="{{ URL::to('mentor') }}">Click Here</a>
                             </p>
+                            <p>
+
+                            <div style="float:left;margin-left:5px;margin-top:-2px;">
+                                <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">2017 EPIC Awards Submission</div>
+                                <a href="{{url('epic-nominations')}}">click to submit</a>
+                            </div>
+                            </p>
 
 
                         </div>

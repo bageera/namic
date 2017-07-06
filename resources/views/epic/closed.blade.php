@@ -9,7 +9,7 @@
         <div class="row">
 
             <div id="pageTitle" class="page-title">
-                2016 Nominations have Closed
+                2017 Nominations have Closed
             </div>
 
         </div>
