@@ -25,7 +25,7 @@ Route::group(array('before' => 'guest'), function () {
     Route::get('mentor/past',['as' => 'past-mentor', 'uses' => 'MainController@pastMentor'])->middleware(['youtube']);
     Route::get('spotlight', ['as' => 'spotlight','uses' => 'MainController@spotlight'])->middleware(['youtube']);
     Route::get('scholarships', ['as' => 'scholarships','uses' => 'MainController@scholarships']);
-    Route::get('epic-nominations', ['as' => 'nomination', 'uses' => 'NominationController@closed']);
+    Route::get('epic-nominations', ['as' => 'nomination', 'uses' => 'NominationController@create']);
     Route::post('nomination', ['as' => 'nomination', 'uses' => 'NominationController@store']);
     Route::get('success', ['as' => 'success','uses' => 'MainController@success']);
     Route::get('volunteer', ['as' => 'success','uses' => 'MainController@volunteer']);
