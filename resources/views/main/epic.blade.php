@@ -19,9 +19,9 @@
                     <div class="panel-heading">The Sixth Man Award </div>
                     <div class="panel-body">
                         <p>
-                            The sixth man in basketball is a player who is not a starter, but comes off the bench much more
+                            The Sixth Man in basketball is a player who is not a starter, but comes off the bench much more
                             often than other reserves, and often is the first player to be substituted in the game. The presence
-                            of a good sixth man is often a sign of a team excellence. These team members also act as leaders and step up beyond their position
+                            of a good Sixth Man is often a sign of a team excellence. These team members also act as leaders and step up beyond their position
                             requirements to lead their department to excellence.
                         </p>
 
@@ -50,7 +50,7 @@
                     <div class="panel-heading">Mentorship Award </div>
                     <div class="panel-body">
                         <p>
-                            This candidate for this award has a strong history of mentoring others throughout their career. They
+                            The candidate for this award has a strong history of mentoring others throughout their career. They
                             empower and advocate for others through both formal and informal mentoring.
                         </p>
 
@@ -79,8 +79,8 @@
                     <div class="panel-heading">Outstanding Achievements in Technology </div>
                     <div class="panel-body">
                         <p>
-                            This award recognizes a leader with visionary ability that has contributed to the advancement of Technology in the
-                            Communications Industry. This individual is viewed as an industry pioneer and supports others through mentorship, career development
+                            This award recognizes a visionary leader who has contributed to the advancement of technology in the
+                            Communications industry. This individual is viewed as a pioneer and who supports others through mentorship, career development
                             and advocacy of diversity in the Communications Industry.
                         </p>
 
@@ -111,9 +111,8 @@
                     <div class="panel-body">
                         <p>
                             This is the highest award given in the NAMIC - Carolinas Leadership Recognition Program. This individual
-                            exemplifies a Senior Leader in the Communications Industry that has consistently supported and advocated for Diversity int he Communications
-                            Industry. This individual not only blazed a path for others to follow, but helped support others that are on the career ladder to
-                            advance their careers.
+                            exemplifies a Senior Leader in the Communications industry that has consistently supported and advocated for Diversity int he Communications
+                            industry. This individual has not only blazed a trail for others to follow, but has akso helped to support others in advancing their careers.
                         </p>
 
                     </div>
@@ -218,7 +217,7 @@
                 </div>
 
                 <div class="block">
-                    <a target="_blank" href="http://namic.site-ym.com/event/2016EPICAwards"><img src="{{asset('img/epic/septflyer2016.jpg')}}" style='float:left;'  class='img-thumbnail' /></a>
+
 
                 </div>
 

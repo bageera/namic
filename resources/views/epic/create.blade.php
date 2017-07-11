@@ -104,7 +104,7 @@
                             <li class="list-group-item list-group-item-info">Sixth Man Award</li>
                                 <ul class="list-group">
                                     <li class="list-group-item">Open to anyone in a supervisor level or below without direct reports in the Telecommunications industry.</li>
-                                    <li class="list-group-item">Active individual contributor in programs and professional associations for diversity advocacy within the communications industry. </li>
+                                    <li class="list-group-item">An active individual contributor to programs and professional associations that advocate diversity. </li>
                                     <li class="list-group-item">Demonstrates exceptional support of their team by:
                                         <ol class="list-group">
 
@@ -131,7 +131,7 @@
                             </li>
                             <li class="list-group-item list-group-item-info">Outstanding Achievements in Technology</li>
                                 <ul class="list-group">
-                                    <li class="list-group-item">Active contributor in programs and professional associations for diversity advocacy.</li>
+                                    <li class="list-group-item">An active individual contributor to programs and professional associations that advocate diversity.</li>
                                     <li class="list-group-item">Senior leader within the NAMIC-Carolinas footprint.</li>
                                     <li class="list-group-item">Demonstrates strategic effectiveness in advancing technology in the Telecommunications industry.</li>
                                     <li class="list-group-item">Leader that is in a technical field or is a contributor in technology.</li>
