@@ -24,12 +24,6 @@
 
                 </div>
 
-                <div class="form-group">
-
-                    {!! Form::label('nominee_address', 'Nominee Address', array('class' => 'col-md-4 control-label')) !!}
-                    {!! Form::text('nominee_address', null, array('class' => 'form-control','placeholder' => 'Address of Nominee')) !!}
-
-                </div>
 
                 <div class="form-group">
 
@@ -56,13 +50,6 @@
 
                     {!! Form::label('nominator_name', "Submitter's Name", array('class' => 'col-md-4 control-label')) !!}
                     {!! Form::text('nominator_name', null, array('class' => 'form-control','placeholder' => 'Enter Your Name')) !!}
-
-                </div>
-
-                <div class="form-group">
-
-                    {!! Form::label('nominator_address', "Submitter's Address", array('class' => 'col-md-4 control-label')) !!}
-                    {!! Form::text('nominator_address', null, array('class' => 'form-control','placeholder' => 'Address of Nominator')) !!}
 
                 </div>
 
@@ -108,11 +95,10 @@
                                     <li class="list-group-item">Demonstrates exceptional support of their team by:
                                         <ol class="list-group">
 
-                                                <li class="list-group-item">Encouraging teamwork and collaboration.</li>
-                                                <li class="list-group-item">Being supportive and encouraging team members to support each other.</li>
-                                                <li class="list-group-item">Focusing on positive work relationships and encouraging others to do the same.</li>
-                                                <li class="list-group-item">Creating or promoting a team vision within their department.</li>
-                                                <li class="list-group-item">Inspiring inclusion and commitment to the team’s vision.</li>
+                                                <li class="list-group-item">Active contributor in programs and professional associations for diversity advocacy.</li>
+                                                <li class="list-group-item">This person could function in a non-supervisory, supervisor, or manager role in the Communication industry.</li>
+                                                <li class="list-group-item">Demonstrates exceptional support of their team.</li>
+
 
                                         </ol>
                                     </li>
@@ -121,29 +107,26 @@
 
                             <li class="list-group-item list-group-item-info">Mentorship Award</li>
                                 <ul class="list-group">
-                                    <li class="list-group-item">This person will be someone that is a supervisor level or above in the Telecommunications industry.</li>
-                                    <li class="list-group-item">Takes a personal interest in the mentoring relationship.</li>
-                                    <li class="list-group-item">Willingness to share skills, knowledge, and expertise consistently.</li>
-                                    <li class="list-group-item">Values ongoing learning and growth in the field.</li>
-                                    <li class="list-group-item">Motivates others by setting a good example.</li>
-                                    <li class="list-group-item">Sets and meets ongoing personal and professional goals.</li>
+                                    <li class="list-group-item">An active individual contributor to programs and professional associations that advocate diversity.</li>
+                                    <li class="list-group-item">A person whose job title is Supervisor or above.</li>
+                                    <li class="list-group-item">Highly regarded as a leader within the Communications industry.</li>
+                                    <li class="list-group-item">Someone who participated in the L Patrick Mellon mentorship program.</li>
+
                                 </ul>
                             </li>
                             <li class="list-group-item list-group-item-info">Outstanding Achievements in Technology</li>
                                 <ul class="list-group">
                                     <li class="list-group-item">An active individual contributor to programs and professional associations that advocate diversity.</li>
-                                    <li class="list-group-item">Senior leader within the NAMIC-Carolinas footprint.</li>
-                                    <li class="list-group-item">Demonstrates strategic effectiveness in advancing technology in the Telecommunications industry.</li>
-                                    <li class="list-group-item">Leader that is in a technical field or is a contributor in technology.</li>
-                                    <li class="list-group-item">Recipient must be a Director level employee or above.</li>
-                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item">Senior leader Director or above that is also a member of NAMIC-Carolinas</li>
+                                    <li class="list-group-item">A person who demonstrates strategic effectiveness in advancing technology in the Communications Industry.</li>
+
+
                                 </ul>
                             </li>
                             <li class="list-group-item list-group-item-info">Career Achievement award</li>
                                 <ul class="list-group">
-                                    <li class="list-group-item">Exceptional career-long contributor in programs and professional associations for diversity advocacy.</li>
-                                    <li class="list-group-item">Recipient will have been in the cable and/or telecommunications industry at least five (5) years.</li>
-                                    <li class="list-group-item">Recipient must be a VP Level or above.</li>
+                                    <li class="list-group-item">An active contributor to programs and professional associations that advocate diversity.</li>
+                                    <li class="list-group-item">Senior leader VP Level or higher that is also a member of NAMIC-Carolinas organization.</li>
                                 </ul>
                             </li>
 
