@@ -146,7 +146,7 @@
                         <div class="block heading" data-type="heading" data-title="heading" data-id="8">
                             <h3 class="h3">
 
-                                    EPIC Awards <b>2017</b> Submission Form
+                                    EPIC Awards <b>2017</b> Submission Form <sub>Closes Aug 30</sub>
 
                             </h3>
                         </div>
