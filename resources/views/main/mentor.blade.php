@@ -9,16 +9,12 @@
             <div class="panel-body">
 
                         <div class="col-md-8">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/fQtT5UC06Uk" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/5fOk0LxulIg" frameborder="0" allowfullscreen></iframe>
                         </div>
                         <div class="col-md-4">
-                            <p>Travis Sanders - "Got Mentors?"</p>
-                            <p>Aug 2017</p>
+                            <p>Mark Kang - "The Work Study Approach to Development"</p>
+                            <p>Sept 2017</p>
                         </div>
-
-
-
-
             </div>
 
         </div>
