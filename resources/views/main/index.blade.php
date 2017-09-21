@@ -70,6 +70,8 @@
 
 
                     </div>
+                    <img src="{{asset('img/epic/oct2017flyer.jpg')}}" data-loaded="false" data-src="{{asset('img/epic/oct2017flyer.jpg')}}">
+                    <img src="{{asset('img/epic/oct2017events.jpg')}}" data-loaded="false" data-src="{{asset('img/epic/oct2017events.jpg')}}">
                 </div>
 
             </div>
@@ -114,13 +116,12 @@
                                 <b>New</b> Mentor Minute
                                 <a href="{{ URL::to('mentor') }}">Click Here</a>
                             </p>
-                            <p>
 
-                            <div style="float:left;margin-left:5px;margin-top:-2px;">
-                                <div style="font-weight:bold;font-size:15px;margin-bottom:-2px;">2017 EPIC Awards Submission</div>
-                                <a href="{{url('epic-nominations')}}">click to submit</a>
-                            </div>
+                            <p>
+                                4<sup>th</sup> <b>Annual Epic Awards & Leadership Summit<b>
                             </p>
+                            <p><a target="_blank" href="https://www.eventbrite.com/e/namic-carolinas-epic-awards-tickets-37505830950"><b>Register Now</b></a></p>
+
 
 
                         </div>

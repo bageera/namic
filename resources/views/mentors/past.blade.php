@@ -27,14 +27,12 @@
             <div class="panel-body">
 
                 <div class="col-md-8">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/SG5411mkT44" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eobb5880cxQ" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="col-md-4">
                     <p>DeAdria Wright Davis - "The Power of a Positive Attitude"</p>
                     <p>July 2017</p>
                 </div>
-
-
 
 
             </div>
