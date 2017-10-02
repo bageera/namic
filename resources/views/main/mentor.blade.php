@@ -9,12 +9,13 @@
             <div class="panel-body">
 
                         <div class="col-md-8">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/5fOk0LxulIg" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/MY9ftfY73w4" frameborder="0" allowfullscreen></iframe>
                         </div>
                         <div class="col-md-4">
-                            <p>Mark Kang - "The Work Study Approach to Development"</p>
-                            <p>Sept 2017</p>
+                            <p>Stephen Vaughn- "Driven"</p>
+                            <p>Oct 2017</p>
                         </div>
+
             </div>
 
         </div>
