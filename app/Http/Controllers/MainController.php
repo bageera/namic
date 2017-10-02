@@ -105,12 +105,12 @@ class MainController extends Controller
 
         //Demo of pulling images from dropbox and having it integrated into the site
         // creating the adapter
-        $client = new Client(env('DROPBOX_TOKEN'), env('DROPBOX_APP'));
-        $filesystem = new Filesystem(new Adapter($client, 'Head Shots/Web Prod'));
+        //$client = new Client(env('DROPBOX_TOKEN'), env('DROPBOX_APP'));
+        //$filesystem = new Filesystem(new Adapter($client, 'Head Shots/Web Prod'));
 
 
-        $contents =  $filesystem->listContents(null,true);
-        $this->processDropbox($contents);
+        //$contents =  $filesystem->listContents(null,true);
+        //$this->processDropbox($contents);
         //dd($contents);
 
 
