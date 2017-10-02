@@ -5,6 +5,24 @@
 @section(('content'))
     <div id="container">
         <div class="panel panel-primary">
+            <div class="panel-heading">Mentor Minute Sept 2017</div>
+            <div class="panel-body">
+
+                <div class="col-md-8">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fQtT5UC06Uk" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-4">
+                    <p>Mark Kang - "The Work Study Approach to Development"</p>
+                    <p>Sept 2017</p>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+        <div class="panel panel-primary">
             <div class="panel-heading">Mentor Minute Aug 2017</div>
             <div class="panel-body">
 
