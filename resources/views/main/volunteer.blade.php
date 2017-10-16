@@ -10,7 +10,7 @@
         <div class="row">
 
             <div class="col-md-12">
-                <img src="{{asset('files/volunteer/brand_logo.png')}}" />
+                <img src="{{asset('files/volunteer/brand_logo_new.png')}}" />
 
 
             </div>
@@ -63,7 +63,7 @@
 
             <div class="col-md-4">
                 <div class="panel panel-primary">
-                    <div class="panel-heading">Benifits</div>
+                    <div class="panel-heading">Benefits</div>
                     <div class="panel-body">
                         <ul>
                             <li>Access to executive leadership</li>
