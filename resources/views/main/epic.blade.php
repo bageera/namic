@@ -26,6 +26,12 @@
                         </p>
 
                     </div>
+                    <div class="panel-footer">2017 Winners
+                        <ul>
+                            <li><b>Tanara Tipton</b> - Systems & Tools Business Analyst, Charter Communications</li>
+
+                        </ul>
+                    </div>
                     <div class="panel-footer">2016 Winners
                         <ul>
                             <li><b>Omar Fergusonl</b> - Supervisor, Tech Ops, Charter Communications</li>
@@ -38,12 +44,7 @@
 
                         </ul>
                     </div>
-                    <div class="panel-footer">2014 Winners
-                        <ul>
-                            <li><b>Linnette Banks</b> - Supervisor, Customer Care, TWC</li>
-                            <li><b>Tameka Green</b> - Manager, Diversity and Inclusion, TWC</li>
-                        </ul>
-                    </div>
+
                 </div>
 
                 <div class="panel panel-primary">
@@ -54,6 +55,12 @@
                             empower and advocate for others through both formal and informal mentoring.
                         </p>
 
+                    </div>
+                    <div class="panel-footer">2017 Winners
+                        <ul>
+                            <li><b>Jamie Bell</b> - Manager, Commercial Technical Repair, Charter Communications</li>
+
+                        </ul>
                     </div>
                     <div class="panel-footer">2016 Winners
                         <ul>
@@ -67,12 +74,7 @@
 
                         </ul>
                     </div>
-                    <div class="panel-footer">2014 Winner
-                        <ul>
-                            <li><b>Charlon McIntosh</b> - GVP, Customer Care, TWCBC</li>
 
-                        </ul>
-                    </div>
                 </div>
 
                 <div class="panel panel-primary">
@@ -84,6 +86,12 @@
                             and advocacy of diversity in the Communications Industry.
                         </p>
 
+                    </div>
+                    <div class="panel-footer">2017 Winners
+                        <ul>
+                            <li><b>Louis Suggs</b> - Manager, IT Support, INSP</li>
+
+                        </ul>
                     </div>
                     <div class="panel-footer">2016 Winners
                         <ul>
@@ -98,12 +106,7 @@
 
                         </ul>
                     </div>
-                    <div class="panel-footer">2014 Winner
-                        <ul>
-                            <li><b>Sandra Howe</b> - SVP, Global Marketing, ARRIS</li>
 
-                        </ul>
-                    </div>
                 </div>
 
                 <div class="panel panel-primary">
@@ -115,6 +118,12 @@
                             industry. This individual has not only blazed a trail for others to follow, but has akso helped to support others in advancing their careers.
                         </p>
 
+                    </div>
+                    <div class="panel-footer">2017 Winners
+                        <ul>
+                            <li><b>Charlene Keys</b> - AVP, Field Operations, Charter Communications</li>
+
+                        </ul>
                     </div>
                     <div class="panel-footer">2016 Winners
                         <ul>
@@ -128,12 +137,7 @@
 
                         </ul>
                     </div>
-                    <div class="panel-footer">2014 Winner
-                        <ul>
-                            <li><b>Mike Lajoie</b> - EVP, Chief Tech and NetOps, TWC</li>
 
-                        </ul>
-                    </div>
                 </div>
 
                 </div>
