@@ -34,7 +34,7 @@
                     </div>
                     <div class="panel-footer">2016 Winners
                         <ul>
-                            <li><b>Omar Fergusonl</b> - Supervisor, Tech Ops, Charter Communications</li>
+                            <li><b>Omar Ferguson</b> - Supervisor, Tech Ops, Charter Communications</li>
 
                         </ul>
                     </div>
