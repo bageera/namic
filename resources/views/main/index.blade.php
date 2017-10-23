@@ -70,8 +70,7 @@
 
 
                     </div>
-                    <img src="{{asset('img/epic/oct2017flyer.jpg')}}" data-loaded="false" data-src="{{asset('img/epic/oct2017flyer.jpg')}}">
-                    <img src="{{asset('img/epic/oct2017events.jpg')}}" data-loaded="false" data-src="{{asset('img/epic/oct2017events.jpg')}}">
+
                 </div>
 
             </div>
