@@ -115,25 +115,14 @@ class MainController extends Controller
 
 
 
-        $mixer = glob("img/events/bben_mixer/*.{jpg,JPG}", GLOB_BRACE);
-        $rookie = glob("img/events/rookie/*.{jpg,JPG}", GLOB_BRACE);
-        $epic2016 = glob("img/events/epic2016/*.{jpg,JPG}", GLOB_BRACE);
+        //$mixer = glob("img/events/bben_mixer/*.{jpg,JPG}", GLOB_BRACE);
+        //$rookie = glob("img/events/rookie/*.{jpg,JPG}", GLOB_BRACE);
+        $epic2017 = glob("img/events/epic2017/*.{jpg,JPG}", GLOB_BRACE);
         $wict2017 = glob("img/events/wict2017/*.{jpg,JPG}", GLOB_BRACE);
-        foreach($mixer as $file)
-        {
 
 
-            if (! file_exists(dirname($file)."/thumb/".basename($file)))
-            {
-                $img = Image::make($file)->resize(200, 200);
-                $img->save($img->dirname. "/thumb/" . $img->filename. "." .$img->extension);
-            }
 
-
-        }
-
-
-        foreach($epic2016 as $file)
+        foreach($epic2017 as $file)
         {
 
 
@@ -161,22 +150,10 @@ class MainController extends Controller
 
         }
 
-        foreach($rookie as $file)
-        {
-
-
-            if (! file_exists(dirname($file)."/thumb/".basename($file)))
-            {
-                $img = Image::make($file)->resize(200, 200);
-                $img->save($img->dirname. "/thumb/" . $img->filename. "." .$img->extension);
-            }
-
-
-        }
 
 
 
-        return view('main.photos', compact('mixer','epic2016','rookie','wict2017','contents'));
+        return view('main.photos', compact('epic2017','rookie','wict2017','contents'));
     }
 
     /**
