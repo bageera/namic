@@ -116,13 +116,6 @@
                                 <a href="{{ URL::to('mentor') }}">Click Here</a>
                             </p>
 
-                            <p>
-                                4<sup>th</sup> <b>Annual Epic Awards & Leadership Summit<b>
-                            </p>
-                            <p><a target="_blank" href="https://www.eventbrite.com/e/namic-carolinas-epic-awards-tickets-37505830950"><b>Register Now</b></a></p>
-
-
-
                         </div>
 
                     </div>
