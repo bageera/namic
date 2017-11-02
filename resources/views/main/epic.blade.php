@@ -29,7 +29,7 @@
                     <div class="panel-footer">2017 Winners
                         <ul>
                             <li><b>Tanara Tipton</b> - Systems & Tools Business Analyst, Charter Communications</li>
-                            <li><b>Xavion Newkirk</b> </li>
+                            <li><b>Xavion Newkirk</b> - Commercial Technical Support Supervisor, Charter Communications </li>
 
                         </ul>
                     </div>
