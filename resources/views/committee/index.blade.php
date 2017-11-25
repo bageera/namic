@@ -27,8 +27,8 @@
                             <div class="col-md-4">
                                 <h3>Commitee Chair(s)</h3>
                                 <ul class="list-group">
-                                    <li class="list-group-item">Breeon Pittman </li>
-                                    <li class="list-group-item">Shanita Coram </li>
+                                    <li class="list-group-item">Tara Brown </li>
+
                                 </ul>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
                                 <h3>Commitee Chair(s)</h3>
                                 <ul class="list-group">
                                     <li class="list-group-item">Tanara Tipton </li>
-                                    <li class="list-group-item">Gail Baltimore  </li>
+                                    <li class="list-group-item">Xavion Newkirk  </li>
                                 </ul>
                             </div>
                         </div>
@@ -144,7 +144,7 @@
                             <div class="col-md-4">
                                 <h3>Commitee Chair(s)</h3>
                                 <ul class="list-group">
-                                    <li class="list-group-item">Amy Rossomando </li>
+                                    <li class="list-group-item">Carlos Cuevas </li>
 
                                 </ul>
                             </div>
