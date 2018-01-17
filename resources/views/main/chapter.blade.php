@@ -52,13 +52,13 @@
                     <div class="column grid_6">
                         <div class="block image" data-type="image" data-title="image" data-id="23">
                             <div align='left'>
-                                <img src="{{asset('img/chapter/ccuevas.jpg')}}" style='float:left;'  class='image ' />
+                                <img src="http://placehold.it/215x277" style='float:left;'  class='image ' />
                             </div>
                         </div>
                         <div class="block text" data-type="text" data-title="text" data-id="28">
                             <div style="">
                                 <b>Treasurer</b><br>
-                                Carlos Cuevas
+                                Morris Whitner
                             </div>
                         </div>
                     </div>
