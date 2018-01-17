@@ -85,7 +85,7 @@
                             <div class="col-md-4">
                                 <h3>Commitee Chair(s)</h3>
                                 <ul class="list-group">
-                                    <li class="list-group-item">Tanara Tipton </li>
+
                                     <li class="list-group-item">Xavion Newkirk  </li>
                                 </ul>
                             </div>
@@ -144,7 +144,7 @@
                             <div class="col-md-4">
                                 <h3>Commitee Chair(s)</h3>
                                 <ul class="list-group">
-                                    <li class="list-group-item">Carlos Cuevas </li>
+                                    <li class="list-group-item">Morris Whitner </li>
 
                                 </ul>
                             </div>
