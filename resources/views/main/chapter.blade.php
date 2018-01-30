@@ -29,23 +29,23 @@
                     <div class="column grid_6 alpha">
                         <div class="block image" data-type="image" data-title="image" data-id="21">
                             <div align='left'>
-                                <img src="{{asset('img/chapter/monica_alexander.jpg')}}" style='float:left;'  class='image ' />
+                                <img src="{{asset('img/chapter/jbell.jpg')}}" style='float:left;'  class='image ' />
                             </div>
                         </div>
                         <div class="block text" data-type="text" data-title="text" data-id="26">
                             <div style=""><b>President</b><br>
-                                Monica Alexander
+                                Jamie Bell
                             </div>
                         </div>
                     </div>
                     <div class="column grid_6"><div class="block image" data-type="image" data-title="image" data-id="22">
                             <div align='left'>
-                                <img src="{{asset('img/chapter/garthdavid.jpg')}}" style='float:left;'  class='image ' />
+                                <img src="{{asset('img/chapter/ttipton.jpg')}}" style='float:left;'  class='image ' />
                             </div>
                         </div>
                         <div class="block text" data-type="text" data-title="text" data-id="27">
                             <div style=""><b>Vice President</b><br>
-                                David Garth
+                                Tanara Tipton
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                     <div class="column grid_6">
                         <div class="block image" data-type="image" data-title="image" data-id="24">
                             <div align='left'>
-                                <img src="{{asset('img/chapter/lcouncil.jpg')}}" style='float:left;'  class='image ' />
+                                <img src="{{asset('img/chapter/lcouncil2.jpg')}}" style='float:left;'  class='image ' />
                             </div>
                         </div>
                         <div class="block text" data-type="text" data-title="text" data-id="29">
@@ -78,13 +78,13 @@
                     <div class="column grid_6 omega">
                         <div class="block image" data-type="image" data-title="image" data-id="24">
                             <div align='left'>
-                                <img src="{{asset('img/chapter/monica_moore.jpg')}}" style='float:left;'  class='image ' />
+                                <img src="{{asset('img/chapter/monica_alexander.jpg')}}" style='float:left;'  class='image ' />
                             </div>
                         </div>
                         <div class="block text" data-type="text" data-title="text" data-id="29">
                             <div style="">
                                 <b>Immediate Past President</b><br>
-                                Monica Moore
+                                Monica Alexander
                             </div>
                         </div>
                     </div>
