@@ -13,7 +13,7 @@
         </div>
 
         <div class="panel panel-primary">
-            <div class="panel-heading">NAMIC WICT 2018 </div>
+            <div class="panel-heading">NAMIC & WICT Carolinas Annual Winter Party </div>
             <div class="panel-body">
 
                 @foreach($wict2018 as $file)
