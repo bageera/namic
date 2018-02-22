@@ -67,9 +67,7 @@
                     <div class="media">
 
 
-                        <a target="_blank" href="https://wictnamic-winter-party.eventbrite.com" >
-                            <img src="{{asset('img/main/wict2018.jpg')}}" data-loaded="false" data-src="{{asset('img/main/wict2018.jpg')}}">
-                        </a>
+
 
                     </div>
 
