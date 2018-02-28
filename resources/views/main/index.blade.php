@@ -111,9 +111,11 @@
                     <div class="panel panel-primary">
                         <div class="panel-heading">Annoucements </div>
                         <div class="panel-body">
+
                             <p>
-                                <b>New</b> Mentor Minute
-                                <a href="{{ URL::to('mentor') }}">Click Here</a>
+
+                                <b>New</b> NAMIC Career Lifecycle
+                                <a target="_blank" href="{{asset('files/index/careerlifecycle.pptx')}}">click to download</a>
                             </p>
 
                         </div>
