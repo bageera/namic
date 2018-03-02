@@ -66,7 +66,10 @@
                 <div class="block imagetext" data-type="imagetext" data-title="imagetext" data-id="3">
                     <div class="media">
 
+                        <a target="_blank" href="{{asset('files/index/careerlifecycle.pptx')}}">
 
+                            <img src="{{asset('img/main/careerlifecycleflyer.png')}}" data-loaded="false" data-src="{{asset('img/main/careerlifecycleflyer.png')}}">
+                        </a>
 
 
                     </div>
