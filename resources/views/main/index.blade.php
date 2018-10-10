@@ -40,6 +40,45 @@
                     Please explore our website to learn more about how NAMIC-Carolinas could assist you with growth and development professionally!
                 </div>
 
+                <div class="block heading" data-type="heading" data-title="heading" data-id="12">
+                    <h3>
+                        <div class='h3' style='text-align:left;'>
+                            Hello NAMIC - Carolinas Members
+                        </div>
+                    </h3>
+                </div>
+                <div class="block imagetext" data-type="imagetext" data-title="imagetext" data-id="3">
+                    <div style="">
+                        <p>
+                        Do you have a colleague whose work demonstrates excellence and commitment to the communications industry?  If so, please let us know about them by entering a submission on their behalf for consideration of a NAMIC-Carolinas Epic Award.  Submissions are being accepted until Tuesday, October 9th, and below is information on the Awards and the submission process.
+ 
+This year’s event will be held on Thursday, October 25th at 6:00pm, and our theme is “Mastering the Career Life Cycle.” We’ll do the show a bit different this year, and we will have red carpet interviews, entertaining videos and comedic hosts, you won’t want to miss it! 
+ 
+So, get your submissions in, and see who will be going home with an EPIC award this year!  We look forward to seeing you there!  
+                        </p>
+
+
+
+                    </div>
+                </div>
+
+                <div class="block heading" data-type="heading" data-title="heading" data-id="12">
+                    <h3>
+                        <div class='h3' style='text-align:left;'>
+                            EPIC AWARDS 2018
+                        </div>
+                    </h3>
+                </div>
+
+                <div class="block imagetext" data-type="imagetext" data-title="imagetext" data-id="3">
+                    <div style="">
+                        
+                        <a href="http://bit.ly/EpicAwards">
+                        <img src="{{asset('img/epic/epicawards2018.jpg')}}" data-loaded="false" data-src="{{asset('img/epic/epicawards2018.jpg')}}">
+                        </a>
+                    </div>
+                </div>
+
 
                 <div class="block heading" data-type="heading" data-title="heading" data-id="12">
                     <h3>
