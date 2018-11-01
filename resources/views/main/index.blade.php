@@ -40,25 +40,9 @@
                     Please explore our website to learn more about how NAMIC-Carolinas could assist you with growth and development professionally!
                 </div>
 
+            
+
                 
-               
-
-                <div class="block heading" data-type="heading" data-title="heading" data-id="12">
-                    <h3>
-                        <div class='h3' style='text-align:left;'>
-                            EPIC AWARDS 2018
-                        </div>
-                    </h3>
-                </div>
-
-                <div class="block imagetext" data-type="imagetext" data-title="imagetext" data-id="3">
-                    <div style="">
-                        
-                        <a href="http://bit.ly/EpicAwards">
-                        <img src="{{asset('img/epic/epicawards2018.jpg')}}" data-loaded="false" data-src="{{asset('img/epic/epicawards2018.jpg')}}">
-                        </a>
-                    </div>
-                </div>
 
 
                 <div class="block heading" data-type="heading" data-title="heading" data-id="12">
