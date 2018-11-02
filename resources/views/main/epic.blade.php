@@ -26,6 +26,13 @@
                         </p>
 
                     </div>
+                    <div class="panel-footer">2018 Winners
+                        <ul>
+                            <li><b>Simone McDowell</b></li>
+                            
+
+                        </ul>
+                    </div>
                     <div class="panel-footer">2017 Winners
                         <ul>
                             <li><b>Tanara Tipton</b> - Systems & Tools Business Analyst, Charter Communications</li>
@@ -56,6 +63,13 @@
                             empower and advocate for others through both formal and informal mentoring.
                         </p>
 
+                    </div>
+                    <div class="panel-footer">2018 Winners
+                        <ul>
+                            <li><b>Michele Brown</b></li>
+                            <li><b>Margaret Lackey-Vinson</b></li>
+
+                        </ul>
                     </div>
                     <div class="panel-footer">2017 Winners
                         <ul>
@@ -88,9 +102,15 @@
                         </p>
 
                     </div>
+                    <div class="panel-footer">2018 Winners
+                        <ul>
+                            <li><b>Kesha Holloway</b></li>
+
+                        </ul>
+                    </div>
                     <div class="panel-footer">2017 Winners
                         <ul>
-                            <li><b>Louis Suggs</b> - Manager, IT Support, INSP</li>
+                            <li><b>Louis Suggse</b> - Manager, IT Support, INSP</li>
 
                         </ul>
                     </div>
@@ -119,6 +139,12 @@
                             industry. This individual has not only blazed a trail for others to follow, but has akso helped to support others in advancing their careers.
                         </p>
 
+                    </div>
+                    <div class="panel-footer">2018 Winners
+                        <ul>
+                            <li><b>Mike Fox</b></li>
+
+                        </ul>
                     </div>
                     <div class="panel-footer">2017 Winners
                         <ul>
