@@ -120,6 +120,21 @@ class MainController extends Controller
         $epic2017 = glob("img/events/epic2017/*.{jpg,JPG}", GLOB_BRACE);
         $wict2017 = glob("img/events/wict2017/*.{jpg,JPG}", GLOB_BRACE);
         $wict2018 = glob("img/events/wict2018/*.{jpg,JPG}", GLOB_BRACE);
+        $epic2018 = glob("img/events/epic2018/*.{jpg,JPG}", GLOB_BRACE);
+
+
+        foreach($epic2018 as $file)
+        {
+
+
+            if (! file_exists(dirname($file)."/thumb/".basename($file)))
+            {
+                $img = Image::make($file)->resize(200, 200);
+                $img->save($img->dirname. "/thumb/" . $img->filename. "." .$img->extension);
+            }
+
+
+        }
 
 
 
@@ -167,7 +182,7 @@ class MainController extends Controller
 
 
 
-        return view('main.photos', compact('epic2017','wict2018','wict2017','contents'));
+        return view('main.photos', compact('epic2017','wict2018','wict2017','contents','epic2018'));
     }
 
     /**
