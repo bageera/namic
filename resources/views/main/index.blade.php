@@ -44,7 +44,7 @@
                 <div class="block heading" data-type="heading" data-title="heading" data-id="12">
                     <h3>
                         <div class='h3' style='text-align:left;'>
-                            January Event!
+                            Winter Party 2019
                         </div>
                     </h3>
                 </div>
