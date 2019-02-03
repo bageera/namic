@@ -12,6 +12,7 @@ use League\Flysystem\Dropbox\DropboxAdapter as Adapter;
 use League\Flysystem\Adapter\Local;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
+use App\Jobs\ProcessImagesJob;
 
 class MainController extends Controller
 {
@@ -112,13 +113,12 @@ class MainController extends Controller
         //$contents =  $filesystem->listContents(null,true);
         //$this->processDropbox($contents);
         //dd($contents);
-
-
+        
 
         //$mixer = glob("img/events/bben_mixer/*.{jpg,JPG}", GLOB_BRACE);
         //$rookie = glob("img/events/rookie/*.{jpg,JPG}", GLOB_BRACE);
         $epic2017 = glob("img/events/epic2017/*.{jpg,JPG}", GLOB_BRACE);
-        $wict2017 = glob("img/events/wict2017/*.{jpg,JPG}", GLOB_BRACE);
+        $wict2019 = glob("img/events/wict2019/*.{jpg,JPG}", GLOB_BRACE);
         $wict2018 = glob("img/events/wict2018/*.{jpg,JPG}", GLOB_BRACE);
         $epic2018 = glob("img/events/epic2018/*.{jpg,JPG}", GLOB_BRACE);
 
@@ -153,7 +153,7 @@ class MainController extends Controller
 
 
 
-        foreach($wict2017 as $file)
+        foreach($wict2019 as $file)
         {
 
 
@@ -182,7 +182,20 @@ class MainController extends Controller
 
 
 
-        return view('main.photos', compact('epic2017','wict2018','wict2017','contents','epic2018'));
+        return view('main.photos', compact('wict2018','wict2019','contents','epic2018'));
+    }
+
+    public function gallery()
+    {
+        //$client = new Client(env('DROPBOX_TOKEN'), env('DROPBOX_APP'));
+        //$filesystem = new Filesystem(new Adapter($client, 'Head Shots/Web Prod'));
+        //$contents =  $filesystem->listContents(null,true);
+        //$this->processDropbox($contents);
+        //dd($contents);
+        $photo_directories=['epic2017','wict2017','wict2018','epic2018'];
+        $job = (new ProcessImagesJob($photo_directories));
+        $this->dispatch($job);
+        return view('main.gallery');
     }
 
     /**
