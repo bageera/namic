@@ -41,24 +41,7 @@
                 </div>
 
 
-                <div class="block heading" data-type="heading" data-title="heading" data-id="12">
-                    <h3>
-                        <div class='h3' style='text-align:left;'>
-                            Winter Party 2019
-                        </div>
-                    </h3>
-                </div>
-                <div class="block imagetext" data-type="imagetext" data-title="imagetext" data-id="3">
-                    <div style="">
-                        <a target="_blank" href="{{asset('https://www.eventbrite.com/e/wictnamic-winter-party-2019-tickets-53075541373')}}">
-
-                            <img src="{{asset('img/main/namic_janflyer.jpg')}}" data-loaded="false" data-src="{{asset('img/main/namic_janflyer.jpg')}}">
-                        </a>
-
-
-
-                    </div>
-                </div>
+                
                 
 
 
